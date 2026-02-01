@@ -20,7 +20,9 @@ export default withNuxt(...tseslint.configs.recommended, {
         "@stylistic/comma-dangle": ["error", "always-multiline"],
         "no-console": "warn",
         "@stylistic/arrow-parens": ["error", "always"],
-        "@stylistic/indent": ["error", 4],
+        "@stylistic/indent": ["error", 4, {
+            baseIndent: 1
+        }],
         "no-unused-vars": "warn",
         "prefer-const": "error",
         "no-var": "error",

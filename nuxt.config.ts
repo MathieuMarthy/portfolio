@@ -6,5 +6,12 @@ export default defineNuxtConfig({
     nitro: {
         preset: "bun",
     },
-    modules: ["@nuxt/ui", "@nuxt/eslint"],
+    modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxtjs/i18n"],
+    i18n: {
+        defaultLocale: "en",
+        locales: [
+            { code: "en", name: "English", file: "en.json" },
+            { code: "fr", name: "Français", file: "fr.json" },
+        ],
+    },
 });
