@@ -6,6 +6,7 @@
     --color-background: var(--background);
     --color-background-alt: var(--background-alt);
     --color-primary: var(--primary);
+    --color-text: var(--text);
 }
 
 :root {
