@@ -1,3 +1,8 @@
 {
-    "hello": "Hello"
+    "navbar": {
+        "about-me": "About me",
+        "my-projects": "My projects",
+        "my-expericences": "My experiences",
+        "contact-me": "Contact me"
+    }
 }
