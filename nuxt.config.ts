@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     nitro: {
         preset: "bun",
     },
-    modules: ["@nuxt/eslint", "@nuxtjs/i18n"],
+    modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxt/fonts"],
     i18n: {
         defaultLocale: "en",
         locales: [

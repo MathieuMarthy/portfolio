@@ -3,6 +3,13 @@ import { onMounted, ref } from "vue";
 
 const isDark = ref(false);
 
+const navItems = [
+    { key: "about-me", href: "#" },
+    { key: "my-projects", href: "#" },
+    { key: "my-expericences", href: "#" },
+    { key: "contact-me", href: "#" },
+];
+
 function toggleTheme() {
     isDark.value = !isDark.value;
     updateTheme();
@@ -36,11 +43,15 @@ onMounted(() => {
             </svg>
         </button>
 
-        <nav class="flex justify-end gap-8">
-            <a class="text-xl text-text" href="#">{{ $t("navbar.about-me") }}</a>
-            <a class="text-xl text-text" href="#">{{ $t("navbar.my-projects") }}</a>
-            <a class="text-xl text-text" href="#">{{ $t("navbar.my-expericences") }}</a>
-            <a class="text-xl text-text" href="#">{{ $t("navbar.contact-me") }}</a>
+        <nav class="flex items-center justify-end gap-8">
+            <a
+                v-for="item in navItems"
+                :key="item.key"
+                class="text-xl text-text hover:opacity-60"
+                :href="item.href"
+            >
+                {{ $t(`navbar.${item.key}`) }}
+            </a>
         </nav>
     </div>
 </template>

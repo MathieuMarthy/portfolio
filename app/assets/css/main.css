@@ -8,7 +8,7 @@
     --color-primary: var(--primary);
     --color-text: var(--text);
 
-    --font-display: "DM Mono", monospace;
+    --default-font-family: "DM Mono", monospace;
 }
 
 :root {
