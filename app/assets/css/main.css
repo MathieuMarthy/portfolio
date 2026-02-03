@@ -7,8 +7,10 @@
     --color-background-alt: var(--background-alt);
     --color-primary: var(--primary);
     --color-text: var(--text);
+    --color-text-secondary: var(--text-secondary);
+    --color-gradient-to: var(--gradient-to);
 
-    --default-font-family: "DM Mono", monospace;
+    --font-sans: "DM Mono", monospace;
 }
 
 :root {
@@ -16,20 +18,45 @@
     --background-alt: #EBE5D6;
     --primary: #1B37A8;
     --text: #040620;
-}
+    --text-secondary: #0f0f30;
+    --gradient-to: #F8E6BD;
 
+    transition-property: --background, --background-alt, --primary, --text, --gradient-to;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
 
 .dark {
     --background: #021018;
     --background-alt: #07161F;
     --primary: #1B37A8;
     --text: #FFFFFF;
+    --text-secondary: #c8c8c8;
+    --gradient-to: #0f2432;
 }
 
-
-
-*, *::before, *::after {
-    transition-property: background-color, border-color, color, fill, stroke, outline-color;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
+@property --background {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #FCF6E8;
+}
+@property --background-alt {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #EBE5D6;
+}
+@property --primary {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #1B37A8;
+}
+@property --text {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #040620;
+}
+@property --gradient-to {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #F8E6BD;
 }

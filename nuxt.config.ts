@@ -21,4 +21,10 @@ export default defineNuxtConfig({
             { code: "fr", name: "Français", file: "fr.json" },
         ],
     },
+    fonts: {
+        defaults: {
+            weights: [300, 400, 500],
+            styles: ["normal"],
+        },
+    },
 });
