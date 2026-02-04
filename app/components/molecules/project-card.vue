@@ -1,19 +1,19 @@
 <script lang="ts" setup>
-import Project from "~/composables/models/project";
+import { getProjectTranslationKey, type Project } from "~/composables/models/project";
 
-defineProps({
-    project: { type: Project, required: true },
-});
+defineProps<{
+    project: Project
+}>();
 </script>
 
 <template>
     <article class="flex flex-col p-4 gap-6 bg-background-alt border-gray-700 border-2 rounded-3xl">
-        <img :alt="project.imageAlt" :src="`/images/projects/${project.image}.webp`" class="h-52 rounded-2xl">
+        <img :alt="$t(getProjectTranslationKey(project, 'imageAlt'))" :src="`/images/projects/${project.projectName}.webp`" class="h-52 rounded-2xl">
 
         <div class="flex flex-col gap-2 px-1">
-            <h4 class="text-text text-xl font-semibold">{{ project.title }}</h4>
+            <h4 class="text-text text-xl font-semibold">{{ $t(getProjectTranslationKey(project, 'title')) }}</h4>
 
-            <p class="text-text">{{ project.description }}</p>
+            <p class="text-text">{{ $t(getProjectTranslationKey(project, 'description')) }}</p>
         </div>
 
         <div class="flex justify-between">

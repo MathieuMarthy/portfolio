@@ -8,7 +8,7 @@
         <organisms-personal-projects/>
     </main>
 
-    <atoms-gradiant-round color-rgba="rgba(5,135,20,0.2)" custom-class="top-[60%] left-0"/>
+    <atoms-gradient-round color-rgba="rgba(5,135,20,0.2)" custom-class="top-[60%] left-0 -translate-x-1/2"/>
 </template>
 
 <style>

@@ -1,30 +1,5 @@
 ﻿<script lang="ts" setup>
-import Project from "~/composables/models/project";
-import { Techno } from "~/composables/models/techno";
-
-const projects = ref([
-    new Project(
-        "realprice",
-        "imageAlt",
-        "title",
-        "description",
-        [Techno.android],
-    ),
-    new Project(
-        "realprice",
-        "imageAlt",
-        "title",
-        "description",
-        [Techno.android],
-    ),
-    new Project(
-        "realprice",
-        "imageAlt",
-        "title",
-        "description",
-        [Techno.android],
-    ),
-]);
+import { projects } from "~/composables/data/projects";
 </script>
 
 <template>
@@ -35,7 +10,7 @@ const projects = ref([
             <div class="flex flex-wrap justify-between gap-16">
                 <molecules-project-card
                     v-for="project in projects"
-                    :key="project.title"
+                    :key="project.projectName"
                     :project="project"
                 />
             </div>

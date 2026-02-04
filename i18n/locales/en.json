@@ -11,7 +11,13 @@
     },
     "my-projects": {
         "my-personals-projects": "My personals projects",
-        "more-infos": "More infos"
+        "more-infos": "More infos",
+
+        "projects-infos": {
+            "realprice-imageAlt": "a",
+            "realprice-title": "b",
+            "realprice-description": "c"
+        }
     },
     "others": {
         "x-logo": "{ name }'s logo"
