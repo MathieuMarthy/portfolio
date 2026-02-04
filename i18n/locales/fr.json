@@ -10,6 +10,9 @@
         "description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Curabitur consectetur, libero non rutrum rhoncus, leo ipsum varius nisi, ac volutpat dui lorem non neque. Pellentesque efficitur, diam ut pharetra pulvinar, dolor turpis pretium erat, quis aliquam quam justo vel turpis. Duis finibus, erat eu consequat condimentum, magna libero accumsan nisl, ut tristique velit nibh eu nibh."
     },
     "my-projects": {
-        "my-personnals-projects": "Mes projets personnels"
+        "my-personals-projects": "Mes projets personnels"
+    },
+    "others": {
+        "x-logo": "Logo de { name }"
     }
 }

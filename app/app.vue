@@ -3,7 +3,7 @@
 
     <organisms-header-navbar/>
 
-    <main class="flex flex-col items-center pt-96 gap-64">
+    <main class="flex flex-col items-center py-64 gap-64">
         <organisms-about-me/>
         <organisms-personal-projects/>
     </main>
