@@ -2,6 +2,7 @@
 export enum Techno {
     android = "Android",
     kotlin = "Kotlin",
+    python = "Python",
     react = "ReactJS",
 }
 

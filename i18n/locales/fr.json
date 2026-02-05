@@ -14,10 +14,17 @@
         "more-infos": "Plus d'infos",
 
         "projects-infos": {
-            "realprice-imageAlt": "a",
-            "realprice-title": "b",
-            "realprice-description": "c"
+            "realprice-imageAlt": "Publicité pour l'application de conversion de devises RealPrice sur Android, avec le slogan 'votre compagnon de voyage'.",
+            "realprice-title": "Realprice - application de conversion",
+            "realprice-description": "Grâce à RealPrice, vous pouvez comparer les taux de change entre deux devises et ajuster le pourcentage de commission prélevé par votre banque lors de transactions internationales. L'application récupère les taux de change en temps réel grâce à une API.",
+
+            "eula-bot-imageAlt": "Bannière Eula Bot avec logo Discord/python et illustration du personnage Eula sur fond étoilé.",
+            "eula-bot-title": "Eula-Bot - Chatbot discord",
+            "eula-bot-description": "Eula-bot est un chatbot Discord développé en Python utilisant la bibliothèque discord.py. Il offre diverses fonctionnalités telles que des outils de modération, des commandes amusantes et de jeux, ainsi que des fonctions utilitaires pour améliorer l'expérience utilisateur sur les serveurs Discord."
         }
+    },
+    "buttons": {
+        "play-store": "Play Store"
     },
     "others": {
         "x-logo": "Logo de { name }"

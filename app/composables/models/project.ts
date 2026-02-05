@@ -1,8 +1,15 @@
 import type { Techno } from "~/composables/models/techno";
 
+export interface Link {
+    type: string;
+    url: string;
+}
+
 export interface Project {
     projectName: string;
     technos: Techno[];
+    links: Link[];
+    showMoreInfosButton: boolean;
 }
 
 const baseTranslationKey = "my-projects.projects-infos";
