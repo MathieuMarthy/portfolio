@@ -27,6 +27,14 @@
             "fastype-description": "Fastype est un jeu où vous tapez des mots aussi vite que possible. Différents modes de jeu sont disponibles ; le plus populaire est « Fastaily ». C'est un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour obtenir un score. Les utilisateurs peuvent créer un compte pour suivre leurs statistiques et grimper dans le classement."
         }
     },
+    "my-experiences": {
+        "my-experiences": "Mes expériences",
+
+        "bpce-3il-dates": "2024 - 2027",
+        "bpce-3il-title": "3il ingénieurs - BPCE infogérance et technologies",
+        "bpce-3il-description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem."
+
+    },
     "buttons": {
         "play-store": "play store",
         "site": "site"
