@@ -8,5 +8,30 @@
     "about-me": {
         "hello": "Salut ! Je m'appelle Mathieu",
         "description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Curabitur consectetur, libero non rutrum rhoncus, leo ipsum varius nisi, ac volutpat dui lorem non neque. Pellentesque efficitur, diam ut pharetra pulvinar, dolor turpis pretium erat, quis aliquam quam justo vel turpis. Duis finibus, erat eu consequat condimentum, magna libero accumsan nisl, ut tristique velit nibh eu nibh."
+    },
+    "my-projects": {
+        "my-personals-projects": "Mes projets personnels",
+        "more-infos": "Plus d'infos",
+
+        "projects-infos": {
+            "realprice-imageAlt": "Publicité pour l'application de conversion de devises RealPrice sur Android, avec le slogan 'votre compagnon de voyage'.",
+            "realprice-title": "Realprice - application de conversion",
+            "realprice-description": "Grâce à RealPrice, vous pouvez comparer les taux de change entre deux devises et ajuster le pourcentage de commission prélevé par votre banque lors de transactions internationales. L'application récupère les taux de change en temps réel grâce à une API.",
+
+            "eula-bot-imageAlt": "Bannière Eula Bot avec logo Discord/python et illustration du personnage Eula sur fond étoilé.",
+            "eula-bot-title": "Eula-Bot - Chatbot discord",
+            "eula-bot-description": "Eula-bot est un chatbot Discord développé en Python utilisant la bibliothèque discord.py. Il offre diverses fonctionnalités telles que des outils de modération, des commandes amusantes et de jeux, ainsi que des fonctions utilitaires pour améliorer l'expérience utilisateur sur les serveurs Discord.",
+
+            "fastype-imageAlt": "Logo stylisé avec écrit Fastype",
+            "fastype-title": "Fastype - un site pour entraîner votre frappe au clavier",
+            "fastype-description": "Fastype est un jeu où vous tapez des mots aussi vite que possible. Différents modes de jeu sont disponibles ; le plus populaire est « Fastaily ». C'est un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour obtenir un score. Les utilisateurs peuvent créer un compte pour suivre leurs statistiques et grimper dans le classement."
+        }
+    },
+    "buttons": {
+        "play-store": "play store",
+        "site": "site"
+    },
+    "others": {
+        "x-logo": "Logo de { name }"
     }
 }
