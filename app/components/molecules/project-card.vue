@@ -4,6 +4,11 @@ import { getProjectTranslationKey, type Project } from "~/composables/models/pro
 defineProps<{
     project: Project
 }>();
+
+function openLinkInNewTab(url: string) {
+    window.open(url, "_blank");
+}
+
 </script>
 
 <template>
@@ -22,7 +27,7 @@ defineProps<{
             </div>
         </div>
 
-        <div class="flex flex-col justify-between gap-2">
+        <div class="flex flex-col justify-between gap-4">
             <div class="flex flex-wrap gap-2">
                 <atoms-techno-pill v-for="techno in project.technos" :key="techno" :techno="techno" />
             </div>
@@ -31,6 +36,7 @@ defineProps<{
                 <atoms-simple-button
                     v-for="link in project.links"
                     :key="link.url"
+                    :click-handler="() => openLinkInNewTab(link.url)"
                     :text="$t(`buttons.${link.type}`)"
                     icon="open-link"
                     style-class="w-full"

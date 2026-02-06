@@ -20,11 +20,16 @@
 
             "eula-bot-imageAlt": "Bannière Eula Bot avec logo Discord/python et illustration du personnage Eula sur fond étoilé.",
             "eula-bot-title": "Eula-Bot - Chatbot discord",
-            "eula-bot-description": "Eula-bot est un chatbot Discord développé en Python utilisant la bibliothèque discord.py. Il offre diverses fonctionnalités telles que des outils de modération, des commandes amusantes et de jeux, ainsi que des fonctions utilitaires pour améliorer l'expérience utilisateur sur les serveurs Discord."
+            "eula-bot-description": "Eula-bot est un chatbot Discord développé en Python utilisant la bibliothèque discord.py. Il offre diverses fonctionnalités telles que des outils de modération, des commandes amusantes et de jeux, ainsi que des fonctions utilitaires pour améliorer l'expérience utilisateur sur les serveurs Discord.",
+
+            "fastype-imageAlt": "Logo stylisé avec écrit Fastype",
+            "fastype-title": "Fastype - un site pour entraîner votre frappe au clavier",
+            "fastype-description": "Fastype est un jeu où vous tapez des mots aussi vite que possible. Différents modes de jeu sont disponibles ; le plus populaire est « Fastaily ». C'est un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour obtenir un score. Les utilisateurs peuvent créer un compte pour suivre leurs statistiques et grimper dans le classement."
         }
     },
     "buttons": {
-        "play-store": "Play Store"
+        "play-store": "play store",
+        "site": "site"
     },
     "others": {
         "x-logo": "Logo de { name }"

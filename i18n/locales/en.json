@@ -20,11 +20,16 @@
 
             "eula-bot-imageAlt": "Eula Bot banner with Discord/python logo and illustration of the character Eula on a starry background.",
             "eula-bot-title": "Eula-Bot - Chatbot discord",
-            "eula-bot-description": "Eula-bot is a Discord chatbot developed in Python using the discord.py library. It offers various features such as moderation tools, fun and games commands, and utility functions to enhance the user experience on Discord servers."
+            "eula-bot-description": "Eula-bot is a Discord chatbot developed in Python using the discord.py library. It offers various features such as moderation tools, fun and games commands, and utility functions to enhance the user experience on Discord servers.",
+
+            "fastype-imageAlt": "Stylized logo with Fastype written on it",
+            "fastype-title": "Fastype - a website to train your typing",
+            "fastype-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard."
         }
     },
     "buttons": {
-        "play-store": "Play Store"
+        "play-store": "play store",
+        "site": "site"
     },
     "others": {
         "x-logo": "{ name }'s logo"

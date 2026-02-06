@@ -14,4 +14,10 @@ export const projects: Project[] = [
         links: [],
         showMoreInfosButton: true,
     },
+    {
+        projectName: "fastype",
+        technos: [Techno.typescript, Techno.react, Techno.sqlserver],
+        links: [{ type: "site", url: "https://fastype.app" }],
+        showMoreInfosButton: true,
+    },
 ];
