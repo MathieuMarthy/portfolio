@@ -11,6 +11,7 @@
             <organisms-personal-projects/>
             <organisms-my-experiences/>
             <organisms-technical-skills/>
+            <organisms-contact-me/>
         </main>
 
         <atoms-gradient-round color-rgba="rgba(5,135,20,0.2)" custom-class="top-[60svh] left-0 -translate-x-1/2"/>

@@ -7,6 +7,7 @@ defineProps({
     styleClass: { type: String, required: false, default: "" },
     icon: { type: String, required: false, default: "" },
     buttonType: { type: Number as PropType<ButtonTypes>, required: false, default: ButtonTypes.PRIMARY },
+    submit: { type: Boolean, required: false, default: false },
 });
 
 function getClassByType(type: ButtonTypes): string {
@@ -23,6 +24,7 @@ function getClassByType(type: ButtonTypes): string {
     <button
         :class="`${styleClass} ${getClassByType(buttonType)} font-semibold px-4 py-2 rounded-2xl cursor-pointer hover:bg-primary-hover
             transition-colors duration-200 ease-in-out flex items-center justify-center gap-2`"
+        :type="submit ? 'submit' : 'button'"
         @click="clickHandler && clickHandler()"
     >
         <span>{{ text }}</span>

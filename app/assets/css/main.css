@@ -10,6 +10,7 @@
     --color-text: var(--text);
     --color-text-secondary: var(--text-secondary);
     --color-gradient-to: var(--gradient-to);
+    --color-input-color: var(--input-color);
 
     --font-sans: "DM Mono", monospace;
 }
@@ -22,8 +23,9 @@
     --text: #040620;
     --text-secondary: #0f0f30;
     --gradient-to: #F8E6BD;
+    --input-color: #d1ccb8;
 
-    transition-property: --background, --background-alt, --primary, --text, --gradient-to;
+    transition-property: --background, --background-alt, --primary, --text, --gradient-to, --input-color;
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
 }
@@ -36,6 +38,7 @@
     --text: #FFFFFF;
     --text-secondary: #c8c8c8;
     --gradient-to: #0f2432;
+    --input-color: #363046;
 }
 
 @property --background {

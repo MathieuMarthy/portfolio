@@ -43,6 +43,20 @@
         "tools": "Outils",
         "infrastructure": "Infrastructure"
     },
+    "contact-me": {
+        "contact-me": "Contactez-moi",
+        "email-me": "Envoyez-moi un email",
+        "check-github": "Consultez mon Github",
+
+        "your-name": "Votre nom",
+        "name-placeholder": "Entrez votre nom",
+        "your-email": "Votre email",
+        "email-placeholder": "Entrez votre email",
+        "your-message": "Votre message",
+        "message-placeholder": "Entrez votre message",
+        "send-message": "Envoyer le message",
+        "message-sent": "Message envoyé !"
+    },
     "buttons": {
         "play-store": "play store",
         "site": "site"
