@@ -35,6 +35,14 @@
         "bpce-3il-description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem."
 
     },
+    "technical-skills": {
+        "technical-skills": "Compétences techniques",
+        "web": "Web",
+        "databases": "Bases de données",
+        "other-languages": "Autres langages",
+        "tools": "Outils",
+        "infrastructure": "Infrastructure"
+    },
     "buttons": {
         "play-store": "play store",
         "site": "site"

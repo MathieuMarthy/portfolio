@@ -8,6 +8,7 @@
             <organisms-about-me/>
             <organisms-personal-projects/>
             <organisms-my-experiences/>
+            <organisms-technical-skills/>
         </main>
 
         <atoms-gradient-round color-rgba="rgba(5,135,20,0.2)" custom-class="top-[60%] left-0 -translate-x-1/2"/>
