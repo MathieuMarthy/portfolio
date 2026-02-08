@@ -6,7 +6,7 @@ import { experiences } from "~/composables/data/experiences";
     <section class="flex flex-col justify-center items-center gap-22 w-full">
         <h2 class="text-text text-5xl text-center">{{ $t("my-experiences.my-experiences") }}</h2>
 
-        <div class="flex flex-col items-center gap-2 w-full px-24">
+        <div class="flex flex-col items-center gap-8 w-10/12 xl:w-2/3">
             <div
                 v-for="(experience, index) in experiences"
                 :key="experience"
