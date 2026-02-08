@@ -17,7 +17,6 @@ function getClassByType(type: ButtonTypes): string {
             return "bg-transparent text-text border-2 border-primary";
     }
 }
-
 </script>
 
 <template>
