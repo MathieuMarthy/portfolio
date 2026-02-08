@@ -1,2 +1,2 @@
 
-export const experiences = ["bpce-3il", "test1"];
+export const experiences = ["bpce-3il", "test1", "salut2", "salut3"];

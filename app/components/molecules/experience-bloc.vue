@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-    <article class="flex flex-col gap-2 w-10/12 md:w-1/2 lg:w-1/3">
+    <article class="flex flex-col gap-2 w-full md:w-1/2">
         <div :class="alignOnRight ? 'pr-7': 'pl-7'">
             <p class="text-text-secondary text-sm">{{ $t(`my-experiences.${experienceTitle}-dates`) }}</p>
             <p class="text-text font-semibold">{{ $t(`my-experiences.${experienceTitle}-title`) }}</p>
