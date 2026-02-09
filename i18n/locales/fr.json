@@ -43,11 +43,33 @@
         "tools": "Outils",
         "infrastructure": "Infrastructure"
     },
+    "contact-me": {
+        "contact-me": "Contactez-moi",
+        "my-socials": "Mes réseaux sociaux",
+        "email-me": "Envoyez-moi un email",
+        "check-github": "Consultez mon Github",
+
+        "send-me-a-message": "Envoyez-moi un message",
+        "your-name": "Votre nom",
+        "name-placeholder": "Entrez votre nom",
+        "your-email": "Votre email",
+        "email-placeholder": "Entrez votre email",
+        "your-message": "Votre message",
+        "message-placeholder": "Entrez votre message",
+        "send-message": "Envoyer le message",
+        "message-sent": "Message envoyé !"
+    },
     "buttons": {
         "play-store": "play store",
         "site": "site"
     },
     "others": {
         "x-logo": "Logo de { name }"
+    },
+    "errors": {
+        "something-went-wrong": "Une erreur est survenue ;( ressayez plus tard.",
+        "invalid-email": "L'email n'est pas valide",
+        "empty": "Le champ ne peut pas être vide",
+        "too-long": "Le message est trop long (max {max} caractères)"
     }
 }

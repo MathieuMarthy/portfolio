@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     nitro: {
         preset: "bun",
     },
+    runtimeConfig: {
+        webhookUrl: process.env.WEBHOOK_URL || "",
+    },
     modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxt/fonts"],
     i18n: {
         defaultLocale: "en",

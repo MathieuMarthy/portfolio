@@ -42,11 +42,33 @@
         "tools": "Tools",
         "infrastructure": "Infrastructure"
     },
+    "contact-me": {
+        "contact-me": "Contact me",
+        "my-socials": "My socials",
+        "email-me": "Email me",
+        "check-github": "Check my Github",
+
+        "send-me-a-message": "Send me a message",
+        "your-name": "Your name",
+        "name-placeholder": "Enter your name",
+        "your-email": "Your email",
+        "email-placeholder": "Enter your email",
+        "your-message": "Your message",
+        "message-placeholder": "Enter your message",
+        "send-message": "Send message",
+        "message-sent": "Message sent !"
+    },
     "buttons": {
         "play-store": "play store",
         "site": "site"
     },
     "others": {
         "x-logo": "{ name }'s logo"
+    },
+    "errors": {
+        "something-went-wrong": "Something went wrong :( please try again later",
+        "invalid-email": "Invalid email address",
+        "empty": "The field cannot be empty",
+        "too-long": "The message is too long (max {max} characters)"
     }
 }
