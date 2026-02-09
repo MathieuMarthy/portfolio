@@ -60,7 +60,8 @@
     },
     "buttons": {
         "play-store": "play store",
-        "site": "site"
+        "site": "site",
+        "close": "close"
     },
     "others": {
         "x-logo": "{ name }'s logo"

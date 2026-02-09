@@ -61,7 +61,8 @@
     },
     "buttons": {
         "play-store": "play store",
-        "site": "site"
+        "site": "site",
+        "close": "fermer"
     },
     "others": {
         "x-logo": "Logo de { name }"
