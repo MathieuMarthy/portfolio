@@ -44,9 +44,11 @@
     },
     "contact-me": {
         "contact-me": "Contact me",
+        "my-socials": "My socials",
         "email-me": "Email me",
         "check-github": "Check my Github",
 
+        "send-me-a-message": "Send me a message",
         "your-name": "Your name",
         "name-placeholder": "Enter your name",
         "your-email": "Your email",

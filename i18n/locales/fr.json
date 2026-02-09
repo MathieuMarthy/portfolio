@@ -45,9 +45,11 @@
     },
     "contact-me": {
         "contact-me": "Contactez-moi",
+        "my-socials": "Mes réseaux sociaux",
         "email-me": "Envoyez-moi un email",
         "check-github": "Consultez mon Github",
 
+        "send-me-a-message": "Envoyez-moi un message",
         "your-name": "Votre nom",
         "name-placeholder": "Entrez votre nom",
         "your-email": "Votre email",
