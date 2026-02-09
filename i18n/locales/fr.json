@@ -63,5 +63,11 @@
     },
     "others": {
         "x-logo": "Logo de { name }"
+    },
+    "errors": {
+        "something-went-wrong": "Une erreur est survenue ;( ressayez plus tard.",
+        "invalid-email": "L'email n'est pas valide",
+        "empty": "Le champ ne peut pas être vide",
+        "too-long": "Le message est trop long (max {max} caractères)"
     }
 }

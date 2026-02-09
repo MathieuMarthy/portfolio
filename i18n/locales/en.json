@@ -62,5 +62,11 @@
     },
     "others": {
         "x-logo": "{ name }'s logo"
+    },
+    "errors": {
+        "something-went-wrong": "Something went wrong :( please try again later",
+        "invalid-email": "Invalid email address",
+        "empty": "The field cannot be empty",
+        "too-long": "The message is too long (max {max} characters)"
     }
 }

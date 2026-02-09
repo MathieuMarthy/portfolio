@@ -7,6 +7,7 @@ defineProps({
     styleClass: { type: String, default: "" },
     textarea: { type: Boolean, default: false },
     modelValue: { type: String, default: "" },
+    errorMessage: { type: String, default: "" },
 });
 
 defineEmits(["update:modelValue"]);
@@ -32,7 +33,13 @@ defineEmits(["update:modelValue"]);
             :placeholder="placeholder"
             :value="modelValue"
             class="text-text bg-input-color rounded-2xl px-3 py-2 resize-none"
-            @input="$emit('update:modelValue', ($event.target as HTMLTextAreaElement).value)"
+            @input="$emit(
+                'update:modelValue',
+                ($event.target as HTMLTextAreaElement).value)"
         />
+        <p
+            v-if="errorMessage"
+            class="text-red-700 dark:text-red-400"
+        >{{ errorMessage }}</p>
     </div>
 </template>
