@@ -12,19 +12,26 @@
     "my-projects": {
         "my-personals-projects": "My personals projects",
         "more-infos": "More infos",
+        "screenshots": "Screenshots",
+        "technologies-used": "Technologies used",
 
         "projects-infos": {
             "realprice-imageAlt": "Advertisement for the RealPrice currency conversion app on Android, with the slogan 'your travel companion'.",
-            "realprice-title": "Realprice - conversion app",
-            "realprice-description": "With RealPrice, you can compare exchange rates between two currencies and adjust the commission percentage charged by your bank during international transactions. The app fetches exchange rates in real time thanks to an API.",
+            "realprice-title": "Realprice",
+            "realprice-short-description": "With RealPrice, you can compare exchange rates between two currencies and adjust the commission percentage charged by your bank during international transactions. The app fetches exchange rates in real time thanks to an API.",
+            "realprice-long-description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Curabitur consectetur, libero non rutrum rhoncus, leo ipsum varius nisi, ac volutpat dui lorem non neque. Pellentesque efficitur, diam ut pharetra pulvinar, dolor turpis pretium erat, quis aliquam quam justo vel turpis. Duis finibus, erat eu consequat condimentum, magna libero accumsan nisl, ut tristique velit nibh eu nibh.",
+            "realprice-home-imageAlt": "Screenshot of the home screen, displaying a currency conversion interface with input fields for amounts.",
+            "realprice-home-light-imageAlt": "Screenshot of the home screen in light mode, showing a currency conversion interface with input fields for amounts.",
+            "realprice-search-imageAlt": "Screenshot of the search screen, featuring a list of currencies with their respective exchange rates and flags.",
+            "realprice-settings-imageAlt": "Screenshot of the settings screen, displaying options for commission percentage adjustment.",
 
             "eula-bot-imageAlt": "Eula Bot banner with Discord/python logo and illustration of the character Eula on a starry background.",
-            "eula-bot-title": "Eula-Bot - Chatbot discord",
-            "eula-bot-description": "Eula-bot is a Discord chatbot developed in Python using the discord.py library. It offers various features such as moderation tools, fun and games commands, and utility functions to enhance the user experience on Discord servers.",
+            "eula-bot-title": "Eula-Bot",
+            "eula-bot-short-description": "Eula-bot is a Discord chatbot developed in Python using the discord.py library. It offers various features such as moderation tools, fun and games commands, and utility functions to enhance the user experience on Discord servers.",
 
             "fastype-imageAlt": "Stylized logo with Fastype written on it",
-            "fastype-title": "Fastype - a website to train your typing",
-            "fastype-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard."
+            "fastype-title": "Fastype",
+            "fastype-short-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard."
         }
     },
     "my-experiences": {
@@ -60,6 +67,7 @@
     },
     "buttons": {
         "play-store": "play store",
+        "github": "Github",
         "site": "site",
         "close": "close"
     },

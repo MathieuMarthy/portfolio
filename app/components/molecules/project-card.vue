@@ -5,12 +5,7 @@ defineProps<{
     project: Project
 }>();
 
-const showPopup = ref(false);
-
-function openLinkInNewTab(url: string) {
-    window.open(url, "_blank");
-}
-
+defineEmits(["showMoreInfos"]);
 </script>
 
 <template>
@@ -19,10 +14,6 @@ function openLinkInNewTab(url: string) {
             min-h-128 md:min-h-108 p-4 bg-background-alt
             border-gray-700 border-2 rounded-3xl">
 
-        <atoms-dynamic-popup
-            v-model="showPopup"
-        ><p>test</p></atoms-dynamic-popup>
-        
         <div class="flex flex-col gap-4">
             <img
                 :alt="$t(getProjectTranslationKey(project, 'imageAlt'))"
@@ -37,7 +28,7 @@ function openLinkInNewTab(url: string) {
 
                 <p
                     class="text-text text-sm"
-                >{{ $t(getProjectTranslationKey(project, 'description')) }}</p>
+                >{{ $t(getProjectTranslationKey(project, 'short-description')) }}</p>
             </div>
         </div>
 
@@ -50,22 +41,12 @@ function openLinkInNewTab(url: string) {
                 />
             </div>
 
-            <div class="flex gap-2">
-                <atoms-simple-button
-                    v-for="link in project.links"
-                    :key="link.url"
-                    :click-handler="() => openLinkInNewTab(link.url)"
-                    :text="$t(`buttons.${link.type}`)"
-                    icon="open-link"
-                    style-class="w-full"
-                />
-                <atoms-simple-button
-                    v-if="project.showMoreInfosButton"
-                    :click-handler="() => showPopup = true"
-                    style-class="w-full"
-                    text="more infos"
-                />
-            </div>
+            <atoms-simple-button
+                v-if="project.showMoreInfosButton"
+                :click-handler="() => $emit('showMoreInfos', project)"
+                style-class="w-full"
+                text="more infos"
+            />
         </div>
     </article>
 </template>

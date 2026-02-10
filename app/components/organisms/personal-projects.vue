@@ -1,15 +1,21 @@
 ﻿<script lang="ts" setup>
 import { projects } from "~/composables/data/projects";
 import { ButtonTypes } from "~/composables/data/buttonTypes";
+import type { Project } from "~/composables/models/project";
 
 const displayAllProjects = ref(false);
-
 const projectsToShow = computed(() => displayAllProjects.value ? projects : projects.slice(0, 3));
 
+const showProjectPopup = ref(false);
+const projectInPopup: Ref<Project | null> = ref(null);
 </script>
 
 <template>
     <section class="flex flex-col justify-center items-center gap-22 w-full">
+        <atoms-dynamic-popup v-model="showProjectPopup">
+            <molecules-project-infos :project="projectInPopup!"/>
+        </atoms-dynamic-popup>
+
         <h2
             class="text-text text-5xl text-center"
         >{{ $t("my-projects.my-personals-projects") }}</h2>
@@ -19,6 +25,7 @@ const projectsToShow = computed(() => displayAllProjects.value ? projects : proj
                 v-for="project in projectsToShow"
                 :key="project.projectName"
                 :project="project"
+                @show-more-infos="() => {showProjectPopup = true; projectInPopup = project}"
             />
         </div>
 

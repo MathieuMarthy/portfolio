@@ -22,8 +22,9 @@ function getClassByType(type: ButtonTypes): string {
 
 <template>
     <button
-        :class="`${styleClass} ${getClassByType(buttonType)} font-semibold px-4 py-2 rounded-2xl cursor-pointer hover:bg-primary-hover
-            transition-colors duration-200 ease-in-out flex items-center justify-center gap-2`"
+        :class="`${styleClass} ${getClassByType(buttonType)} font-semibold px-4 py-2 rounded-2xl
+            cursor-pointer hover:bg-primary-hover transition-colors duration-200 ease-in-out flex items-center
+            justify-center gap-2`"
         :type="submit ? 'submit' : 'button'"
         @click="clickHandler && clickHandler()"
     >

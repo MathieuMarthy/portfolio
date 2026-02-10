@@ -10,12 +10,13 @@ export interface Project {
     technos: Techno[];
     links: Link[];
     showMoreInfosButton: boolean;
+    screenshots: string[];
 }
 
 const baseTranslationKey = "my-projects.projects-infos";
 
-export type ProjectField = "imageAlt" | "title" | "description";
+export type ProjectField =
+    `${string}-imageAlt` | "imageAlt" | "title" | "short-description" | "long-description";
 
-export const getProjectTranslationKey = (project: Project, field: ProjectField) => {
-    return `${baseTranslationKey}.${project.projectName}-${field}`;
-};
+export const getProjectTranslationKey =
+    (project: Project, field: ProjectField) => `${baseTranslationKey}.${project.projectName}-${field}`;

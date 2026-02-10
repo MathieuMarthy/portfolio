@@ -34,7 +34,7 @@ const contactLinks = [
                     <a
                         :class="[
                             'text-text bg-primary hover:bg-primary-hover',
-                            'px-5 py-2 rounded-2xl transition-colors duration-300'
+                            'px-4 py-2 rounded-2xl transition-colors duration-300'
                         ]"
                         :href="contactLink.url"
                         rel="noopener noreferrer"
