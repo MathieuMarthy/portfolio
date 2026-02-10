@@ -9,13 +9,23 @@ function closePopup() {
     emit("update:modelValue", false);
 }
 
-watch(() => props.modelValue, (isVisible) => {
-    if (isVisible) {
-        document.body.style.overflow = "hidden";
+function updateBodyOverflow(hidden: boolean) {
+    document.body.style.overflow = hidden ? "hidden": "";
+}
+
+watch(() => props.modelValue, () => {
+    if (props.modelValue) {
+        updateBodyOverflow(true);
     } else {
-        document.body.style.overflow = "";
+        updateBodyOverflow(false);
     }
-}, { immediate: true });
+});
+
+onMounted(() => {
+    if (props.modelValue) {
+        updateBodyOverflow(true);
+    }
+});
 
 onUnmounted(() => {
     document.body.style.overflow = "";
@@ -31,7 +41,7 @@ onUnmounted(() => {
             @click="closePopup"
         >
             <div
-                class="flex flex-col bg-background border border-gray-700 p-4 rounded-2xl w-1/2 h-fit"
+                class="flex flex-col gap-4 bg-background border border-gray-700 p-4 rounded-2xl w-1/2 h-fit"
                 @click.stop
             >
                 <atoms-simple-button

@@ -47,7 +47,7 @@ defineProps<{
         <div class="flex flex-col items-center gap-4">
             <h3 class="text-text text-4xl text-center font-semibold">{{ $t("my-projects.screenshots") }}</h3>
 
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap justify-center">
                 <img
                     v-for="screenshot in project.screenshots"
                     :key="screenshot"

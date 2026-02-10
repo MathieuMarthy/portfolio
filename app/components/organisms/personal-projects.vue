@@ -6,14 +6,20 @@ import type { Project } from "~/composables/models/project";
 const displayAllProjects = ref(false);
 const projectsToShow = computed(() => displayAllProjects.value ? projects : projects.slice(0, 3));
 
-const showProjectPopup = ref(false);
 const projectInPopup: Ref<Project | null> = ref(null);
+
+function handlePopupClose() {
+    projectInPopup.value = null;
+}
 </script>
 
 <template>
     <section class="flex flex-col justify-center items-center gap-22 w-full">
-        <atoms-dynamic-popup v-model="showProjectPopup">
-            <molecules-project-infos :project="projectInPopup!"/>
+        <atoms-dynamic-popup
+            :model-value="projectInPopup !== null"
+            @update:model-value="handlePopupClose"
+        >
+            <molecules-project-infos v-if="projectInPopup" :project="projectInPopup"/>
         </atoms-dynamic-popup>
 
         <h2
@@ -25,7 +31,7 @@ const projectInPopup: Ref<Project | null> = ref(null);
                 v-for="project in projectsToShow"
                 :key="project.projectName"
                 :project="project"
-                @show-more-infos="() => {showProjectPopup = true; projectInPopup = project}"
+                @show-more-infos="projectInPopup = project"
             />
         </div>
 

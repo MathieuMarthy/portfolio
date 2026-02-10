@@ -18,8 +18,8 @@
         "projects-infos": {
             "realprice-imageAlt": "Advertisement for the RealPrice currency conversion app on Android, with the slogan 'your travel companion'.",
             "realprice-title": "Realprice",
-            "realprice-short-description": "With RealPrice, you can compare exchange rates between two currencies and adjust the commission percentage charged by your bank during international transactions. The app fetches exchange rates in real time thanks to an API.",
-            "realprice-long-description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Curabitur consectetur, libero non rutrum rhoncus, leo ipsum varius nisi, ac volutpat dui lorem non neque. Pellentesque efficitur, diam ut pharetra pulvinar, dolor turpis pretium erat, quis aliquam quam justo vel turpis. Duis finibus, erat eu consequat condimentum, magna libero accumsan nisl, ut tristique velit nibh eu nibh.",
+            "realprice-short-description": "Mobile app to convert currencies, including bank fees.",
+            "realprice-long-description": "RealPrice is a currency conversion app for travelers who want to know the real cost of items in a foreign currency. With RealPrice, you can easily compare exchange rates between two currencies and adjust the commission percentage charged by your bank during international transactions. This feature allows you to calculate the final price of an item or service, taking into account not only the exchange rate, but also the associated banking fees. The app automatically updates as soon as you are connected to the Internet, ensuring always accurate and up-to-date conversions. You can install Realprice via the Play Store or with the apk available on Github.",
             "realprice-home-imageAlt": "Screenshot of the home screen, displaying a currency conversion interface with input fields for amounts.",
             "realprice-home-light-imageAlt": "Screenshot of the home screen in light mode, showing a currency conversion interface with input fields for amounts.",
             "realprice-search-imageAlt": "Screenshot of the search screen, featuring a list of currencies with their respective exchange rates and flags.",
@@ -27,11 +27,13 @@
 
             "eula-bot-imageAlt": "Eula Bot banner with Discord/python logo and illustration of the character Eula on a starry background.",
             "eula-bot-title": "Eula-Bot",
-            "eula-bot-short-description": "Eula-bot is a Discord chatbot developed in Python using the discord.py library. It offers various features such as moderation tools, fun and games commands, and utility functions to enhance the user experience on Discord servers.",
+            "eula-bot-short-description": "Discord chatbot with commands for games, moderation and utilities",
+            "eula-bot-long-description": "Eula is a multifunctional open-source Discord bot offering moderation, administration and entertainment tools. It allows moderators to manage a server through message cleaning, polling and logging commands. There are also commands for normal users like external features such as retrieving images on Reddit or tracking League of Legends statistics (rankings, match history). The bot also includes multiplayer mini-games (Monopoly, 10_fast_fingers) and social interaction commands. Eula can be installed via a Docker image or directly with Python.",
 
             "fastype-imageAlt": "Stylized logo with Fastype written on it",
             "fastype-title": "Fastype",
-            "fastype-short-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard."
+            "fastype-short-description": "Fastype is a game where you type words as fast as possible.",
+            "fastype-long-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard."
         }
     },
     "my-experiences": {
