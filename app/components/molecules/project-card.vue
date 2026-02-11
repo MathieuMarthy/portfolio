@@ -18,7 +18,7 @@ defineEmits(["showMoreInfos"]);
             <img
                 :alt="$t(getProjectTranslationKey(project, 'imageAlt'))"
                 :src="`/images/projects/${project.projectName}.webp`"
-                class="w-auto h-40 rounded-2xl"
+                class="w-auto h-42 rounded-2xl"
             >
 
             <div class="flex flex-col gap-2 px-1">
@@ -42,7 +42,6 @@ defineEmits(["showMoreInfos"]);
             </div>
 
             <atoms-simple-button
-                v-if="project.showMoreInfosButton"
                 :click-handler="() => $emit('showMoreInfos', project)"
                 style-class="w-full"
                 text="more infos"

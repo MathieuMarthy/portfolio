@@ -9,7 +9,6 @@ export interface Project {
     projectName: string;
     technos: Techno[];
     links: Link[];
-    showMoreInfosButton: boolean;
     screenshots: string[];
 }
 
