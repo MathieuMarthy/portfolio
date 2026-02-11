@@ -71,15 +71,6 @@ function setupScrollObserver() {
     }
 }
 
-function initializeTheme() {
-    const stored = localStorage.getItem("theme");
-    isDark.value = stored
-        ? stored === "dark"
-        : window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    document.documentElement.classList.toggle("dark", isDark.value);
-}
-
 function toggleMobileMenu() {
     isMobileMenuOpen.value = !isMobileMenuOpen.value;
     document.body.style.overflow = isMobileMenuOpen.value ? "hidden" : "";
@@ -95,7 +86,7 @@ watch(activeSection, () => {
 });
 
 onMounted(() => {
-    initializeTheme();
+    isDark.value = document.documentElement.classList.contains("dark");
 
     // Setup scroll observer
     nextTick(() => {
