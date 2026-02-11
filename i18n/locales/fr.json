@@ -4,7 +4,9 @@
         "my-projects": "Mes projets",
         "my-expericences": "Mes expériences",
         "technical-skills": "Compétences techniques",
-        "contact-me": "Contactez-moi"
+        "contact-me": "Contactez-moi",
+        "enable-dark-mode": "Activer le mode sombre",
+        "enable-light-mode": "Activer le mode clair"
     },
     "about-me": {
         "hello": "Salut ! Je m'appelle Mathieu",
