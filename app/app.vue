@@ -34,6 +34,9 @@
 </template>
 
 <style>
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--color-background);
 }

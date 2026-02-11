@@ -1,7 +1,10 @@
 <script lang="ts" setup>
-import { onMounted, ref } from "vue";
+import { nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 
 const isDark = ref(false);
+const activeSection = ref("");
+const navRef = ref<HTMLElement | null>(null);
+const indicatorStyle = ref({ left: "0px", width: "0px" });
 
 const navItems = [
     { key: "about-me", href: "#about-me" },
@@ -9,26 +12,98 @@ const navItems = [
     { key: "my-expericences", href: "#my-experiences" },
     { key: "technical-skills", href: "#technical-skills" },
     { key: "contact-me", href: "#contact-me" },
-];
+] as const;
+
+const observerOptions = {
+    root: null,
+    rootMargin: "-50% 0px -50% 0px",
+    threshold: 0,
+} as const;
+
+let observer: IntersectionObserver | null = null;
+let resizeObserver: ResizeObserver | null = null;
 
 function toggleTheme() {
     isDark.value = !isDark.value;
-    updateTheme();
+    document.documentElement.classList.toggle("dark", isDark.value);
+    localStorage.setItem("theme", isDark.value ? "dark" : "light");
 }
 
-function updateTheme() {
-    document.documentElement.classList.toggle("dark", isDark.value);
-    localStorage.setItem("theme", isDark.value ? "dark": "light");
+function updateIndicatorPosition() {
+    if (!navRef.value || !activeSection.value) {
+        return;
+    }
+
+    const activeLink = navRef.value.querySelector(`a[href="${activeSection.value}"]`) as HTMLElement;
+    if (!activeLink) {
+        return;
+    }
+
+    const navRect = navRef.value.getBoundingClientRect();
+    const linkRect = activeLink.getBoundingClientRect();
+
+    indicatorStyle.value = {
+        left: `${linkRect.left - navRect.left}px`,
+        width: `${linkRect.width}px`,
+    };
 }
+
+function handleIntersection(entries: IntersectionObserverEntry[]) {
+    for (const entry of entries) {
+        if (entry.isIntersecting) {
+            activeSection.value = `#${entry.target.id}`;
+            break;
+        }
+    }
+}
+
+function setupScrollObserver() {
+    observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+    // Observe all sections
+    for (const item of navItems) {
+        const sectionId = item.href.substring(1);
+        const section = document.getElementById(sectionId);
+        if (section) {
+            observer.observe(section);
+        }
+    }
+}
+
+function initializeTheme() {
+    const stored = localStorage.getItem("theme");
+    isDark.value = stored
+        ? stored === "dark"
+        : window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    document.documentElement.classList.toggle("dark", isDark.value);
+}
+
+watch(activeSection, () => {
+    nextTick(updateIndicatorPosition);
+});
 
 onMounted(() => {
-    const stored = localStorage.getItem("theme");
-    if (stored) {
-        isDark.value = stored === "dark";
-    } else {
-        isDark.value = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    initializeTheme();
+
+    // Setup scroll observer
+    nextTick(() => {
+        setupScrollObserver();
+        updateIndicatorPosition();
+    });
+
+    if (navRef.value) {
+        resizeObserver = new ResizeObserver(updateIndicatorPosition);
+        resizeObserver.observe(navRef.value);
     }
-    updateTheme();
+
+    window.addEventListener("resize", updateIndicatorPosition);
+});
+
+onUnmounted(() => {
+    observer?.disconnect();
+    resizeObserver?.disconnect();
+    window.removeEventListener("resize", updateIndicatorPosition);
 });
 </script>
 
@@ -49,15 +124,26 @@ onMounted(() => {
             <!-- eslint-enable @stylistic/max-len -->
         </button>
 
-        <nav class="flex items-center justify-end gap-8 bg-background-alt rounded-2xl px-5 py-2">
+        <nav
+            ref="navRef"
+            class="flex items-center justify-end gap-8 bg-background-alt rounded-2xl px-5 py-2 relative"
+        >
             <a
                 v-for="item in navItems"
                 :key="item.key"
+                :class="[
+                    'text-lg text-text hover:text-text-secondary transition-colors duration-200' +
+                    ' ease-in-out pb-1 relative z-10',
+                    activeSection === item.href ? 'text-text-secondary' : ''
+                ]"
                 :href="item.href"
-                class="text-lg text-text hover:text-text-secondary transition-colors duration-200 ease-in-out"
             >
                 {{ $t(`navbar.${item.key}`) }}
             </a>
+            <div
+                :style="{ left: indicatorStyle.left, width: indicatorStyle.width }"
+                class="absolute bottom-2 h-0.5 bg-text-secondary transition-all duration-300 ease-in-out"
+            />
         </nav>
     </div>
 </template>
