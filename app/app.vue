@@ -6,7 +6,7 @@
 
         <organisms-header-navbar/>
 
-        <main class="flex flex-col items-center py-64 gap-52">
+        <main class="flex flex-col items-center py-40 md:py-64 gap-52">
             <organisms-about-me/>
             <organisms-personal-projects/>
             <organisms-my-experiences/>
@@ -34,6 +34,9 @@
 </template>
 
 <style>
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: var(--color-background);
 }

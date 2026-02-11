@@ -4,6 +4,26 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
+    app: {
+        head: {
+            script: [
+                {
+                    innerHTML: `(function() {
+                        try {
+                            const stored = localStorage.getItem("theme");
+                            const isDark = stored
+                                ? stored === "dark"
+                                : window.matchMedia("(prefers-color-scheme: dark)").matches;
+                            if (isDark) {
+                                document.documentElement.classList.add("dark");
+                            }
+                        } catch (e) {}
+                    })()`,
+                    type: "text/javascript",
+                },
+            ],
+        },
+    },
     css: ["./app/assets/css/main.css"],
     vite: {
         plugins: [
