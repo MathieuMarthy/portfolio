@@ -12,19 +12,31 @@
     "my-projects": {
         "my-personals-projects": "Mes projets personnels",
         "more-infos": "Plus d'infos",
+        "screenshots": "Captures d'écran",
+        "technologies-used": "Technologies utilisées",
 
         "projects-infos": {
             "realprice-imageAlt": "Publicité pour l'application de conversion de devises RealPrice sur Android, avec le slogan 'votre compagnon de voyage'.",
-            "realprice-title": "Realprice - application de conversion",
-            "realprice-description": "Grâce à RealPrice, vous pouvez comparer les taux de change entre deux devises et ajuster le pourcentage de commission prélevé par votre banque lors de transactions internationales. L'application récupère les taux de change en temps réel grâce à une API.",
+            "realprice-title": "Realprice",
+            "realprice-short-description": "Application mobile pour convertir les devises, en prenant en compte les frais bancaires.",
+            "realprice-long-description": "RealPrice est une application de conversion de devises pour les voyageurs qui souhaitent connaître le coût réel des articles dans une devise étrangère. Avec RealPrice, vous pouvez facilement comparer les taux de change entre deux devises et ajuster le pourcentage de commission facturé par votre banque lors des transactions internationales. Cette fonctionnalité vous permet de calculer le prix final d'un article ou d'un service, en tenant compte non seulement du taux de change, mais aussi des frais bancaires associés. L'application se met automatiquement à jour dès que vous êtes connecté à Internet, garantissant des conversions toujours précises et à jour. Vous pouvez installer Realprice via le Play Store ou avec l'APK disponible sur Github.",
+            "realprice-home-imageAlt": "Capture d'écran de l'écran d'accueil, affichant une interface de conversion de devises avec des champs de saisie pour les montants.",
+            "realprice-home-light-imageAlt": "Capture d'écran de l'écran d'accueil en mode clair, montrant une interface de conversion de devises avec des champs de saisie pour les montants.",
+            "realprice-search-imageAlt": "Capture d'écran de l'écran de recherche, présentant une liste de devises avec leurs taux de change respectifs et leurs drapeaux.",
+            "realprice-settings-imageAlt": "Capture d'écran de l'écran des paramètres, affichant des options pour l'ajustement du pourcentage de commission.",
 
             "eula-bot-imageAlt": "Bannière Eula Bot avec logo Discord/python et illustration du personnage Eula sur fond étoilé.",
-            "eula-bot-title": "Eula-Bot - Chatbot discord",
-            "eula-bot-description": "Eula-bot est un chatbot Discord développé en Python utilisant la bibliothèque discord.py. Il offre diverses fonctionnalités telles que des outils de modération, des commandes amusantes et de jeux, ainsi que des fonctions utilitaires pour améliorer l'expérience utilisateur sur les serveurs Discord.",
+            "eula-bot-title": "Eula-Bot",
+            "eula-bot-short-description": "Chatbot Discord avec des commandes pour les jeux, la modération et les utilitaires",
+            "eula-bot-long-description": "Eula est un bot Discord multifonction open-source proposant des outils de modération, d'administration et de divertissement. Il permet aux modérateurs de gérer un serveur via des commandes de nettoyage de messages, de sondages et de logs. Il existe aussi des commandes pour les utilisateurs normaux comme des fonctionnalités externes comme la récupération d'images sur Reddit ou le suivi de statistiques League of Legends (classements, historique de parties). Le bot inclut également des mini-jeux multijoueurs (Monopoly, 10_fast_fingers) et des commandes d'interaction sociale. Eula peut être installé via une image Docker ou directement avec Python.",
 
             "fastype-imageAlt": "Logo stylisé avec écrit Fastype",
-            "fastype-title": "Fastype - un site pour entraîner votre frappe au clavier",
-            "fastype-description": "Fastype est un jeu où vous tapez des mots aussi vite que possible. Différents modes de jeu sont disponibles ; le plus populaire est « Fastaily ». C'est un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour obtenir un score. Les utilisateurs peuvent créer un compte pour suivre leurs statistiques et grimper dans le classement."
+            "fastype-title": "Fastype",
+            "fastype-short-description": "Fastype est un jeu où vous devez taper des mots le plus rapidement possible.",
+            "fastype-long-description": "Fastype est un jeu où vous devez taper des mots le plus rapidement possible. Différents modes de jeu sont disponibles ; le plus populaire est “Fastaily.” Il s'agit d'un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour réaliser un score. Les utilisateurs peuvent créer un compte pour débloquer plusieurs fonctionnalités, comme la personnalisation de leur profil, l'accès à des statistiques détaillées et la possibilité d'ajouter des amis pour comparer les scores. Tous les joueurs sont affichés dans un classement global trié par mode de jeu.",
+            "fastype-game-imageAlt": "Interface du jeu de frappe avec une liste de mots à taper, un chronomètre et un affichage du score.",
+            "fastype-leaderboard-imageAlt": "Un classement montrant les meilleurs joueurs de Fastype avec leurs scores et leurs rangs.",
+            "fastype-stats-imageAlt": "Page de statistiques utilisateur montrant la vitesse de frappe, la précision et des graphiques de performance historiques."
         }
     },
     "my-experiences": {
@@ -61,7 +73,9 @@
     },
     "buttons": {
         "play-store": "play store",
-        "site": "site"
+        "github": "Github",
+        "site": "site",
+        "close": "fermer"
     },
     "others": {
         "x-logo": "Logo de { name }"

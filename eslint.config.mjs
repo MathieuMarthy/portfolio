@@ -33,7 +33,7 @@ export default withNuxt(...tseslint.configs.recommended, {
         "@stylistic/no-multiple-empty-lines": ["error", {
             max: 1,
         }],
-        "@stylistic/max-len": ["error", 90],
+        "@stylistic/max-len": ["error", 110],
         "arrow-body-style": ["error", "as-needed"],
         "@stylistic/jsx-quotes": ["error", "prefer-double"],
         "no-duplicate-imports": "error",
