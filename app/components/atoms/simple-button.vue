@@ -22,13 +22,16 @@ function getClassByType(type: ButtonTypes): string {
 
 <template>
     <button
-        :class="`${styleClass} ${getClassByType(buttonType)} font-semibold px-4 py-2 rounded-2xl
+        :class="`${styleClass} ${getClassByType(buttonType)} px-4 py-2 rounded-2xl
             cursor-pointer hover:bg-primary-hover transition-colors duration-200 ease-in-out flex items-center
             justify-center gap-2`"
         :type="submit ? 'submit' : 'button'"
         @click="clickHandler && clickHandler()"
     >
-        <span>{{ text }}</span>
+        <span
+            :class="buttonType === ButtonTypes.PRIMARY ? 'text-white': 'text-text hover:text-white'"
+            class="font-bold"
+        >{{ text }}</span>
         <span
             v-if="icon"
             :style="{

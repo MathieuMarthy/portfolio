@@ -26,14 +26,20 @@ const contactLinks = [
                     :key="contactLink.url"
                     class="flex flex-col items-center justify-center gap-6"
                 >
-                    <img
-                        :src="`/images/${contactLink.icon}.svg`"
-                        alt="" class="h-18 w-auto"
-                    >
+                    <span
+                        :style="{
+                            maskImage: `url('/images/${contactLink.icon}.svg')`,
+                            WebkitMaskImage: `url('/images/${contactLink.icon}.svg')`,
+                            maskRepeat: 'no-repeat',
+                            maskPosition: 'center',
+                            maskSize: 'contain'
+                        }"
+                        class="h-18 w-full bg-text"
+                    />
 
                     <a
                         :class="[
-                            'text-text bg-primary hover:bg-primary-hover',
+                            'text-white font-semibold bg-primary hover:bg-primary-hover',
                             'px-4 py-2 rounded-2xl transition-colors duration-300'
                         ]"
                         :href="contactLink.url"
