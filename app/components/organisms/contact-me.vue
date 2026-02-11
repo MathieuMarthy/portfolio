@@ -13,7 +13,7 @@ const contactLinks = [
 </script>
 
 <template>
-    <section id="contact-me" class="flex flex-col items-center gap-28 w-1/3">
+    <section id="contact-me" class="flex flex-col items-center gap-28 w-2/3 md:w-1/3">
         <h2 class="text-text text-5xl text-center">{{ $t("contact-me.contact-me") }}</h2>
 
         <article class="flex flex-col items-center gap-8 w-full">
