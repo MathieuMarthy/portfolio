@@ -208,7 +208,14 @@ onUnmounted(() => {
         </div>
 
         <!-- Mobile Menu Overlay -->
-        <Transition name="fade">
+        <Transition
+            enter-active-class="transition-opacity duration-300 ease-out"
+            enter-from-class="opacity-0"
+            enter-to-class="opacity-100"
+            leave-active-class="transition-opacity duration-300 ease-in"
+            leave-from-class="opacity-100"
+            leave-to-class="opacity-0"
+        >
             <div
                 v-if="isMobileMenuOpen"
                 class="fixed inset-0 bg-black/50 backdrop-blur-sm z-40"
@@ -217,7 +224,14 @@ onUnmounted(() => {
         </Transition>
 
         <!-- Mobile Menu Drawer -->
-        <Transition name="slide">
+        <Transition
+            enter-active-class="transition-all duration-300 ease-out"
+            enter-from-class="translate-x-full opacity-0"
+            enter-to-class="translate-x-0 opacity-100"
+            leave-active-class="transition-all duration-300 ease-in"
+            leave-from-class="translate-x-0 opacity-100"
+            leave-to-class="translate-x-full opacity-0"
+        >
             <nav
                 v-if="isMobileMenuOpen"
                 class="fixed top-0 right-0 h-full w-72 bg-background-alt z-50 shadow-2xl flex flex-col"
@@ -258,4 +272,3 @@ onUnmounted(() => {
         </Transition>
     </div>
 </template>
-
