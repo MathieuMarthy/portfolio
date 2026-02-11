@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col justify-center items-center gap-10">
+    <section id="about-me" class="flex flex-col justify-center items-center gap-10">
         <img alt="" class="rounded-full h-72 w-72" src="/images/pp.webp">
 
         <h1 class="text-text text-center text-6xl md:text-7xl font-medium ">{{ $t("about-me.hello") }}</h1>

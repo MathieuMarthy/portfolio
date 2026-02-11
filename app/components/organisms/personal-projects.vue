@@ -14,7 +14,7 @@ function handlePopupClose() {
 </script>
 
 <template>
-    <section class="flex flex-col justify-center items-center gap-22 w-full">
+    <section id="personal-projects" class="flex flex-col justify-center items-center gap-22 w-full">
         <atoms-dynamic-popup
             :model-value="projectInPopup !== null"
             @update:model-value="handlePopupClose"
