@@ -30,6 +30,6 @@ export const projects: Project[] = [
         technos: [Techno.typescript, Techno.react, Techno.sqlserver],
         links: [{ type: "site", url: "https://fastype.app" }],
         showMoreInfosButton: true,
-        screenshots: [],
+        screenshots: ["game", "leaderboard", "stats"],
     },
 ];

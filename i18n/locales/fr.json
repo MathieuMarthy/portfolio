@@ -33,7 +33,10 @@
             "fastype-imageAlt": "Logo stylisé avec écrit Fastype",
             "fastype-title": "Fastype",
             "fastype-short-description": "Fastype est un jeu où vous devez taper des mots le plus rapidement possible.",
-            "fastype-long-description": "Fastype est un jeu où vous devez taper des mots le plus rapidement possible. Différents modes de jeu sont disponibles ; le plus populaire est “Fastaily.” Il s'agit d'un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour réaliser un score. Les utilisateurs peuvent créer un compte pour débloquer plusieurs fonctionnalités, comme la personnalisation de leur profil, l'accès à des statistiques détaillées et la possibilité d'ajouter des amis pour comparer les scores. Tous les joueurs sont affichés dans un classement global trié par mode de jeu."
+            "fastype-long-description": "Fastype est un jeu où vous devez taper des mots le plus rapidement possible. Différents modes de jeu sont disponibles ; le plus populaire est “Fastaily.” Il s'agit d'un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour réaliser un score. Les utilisateurs peuvent créer un compte pour débloquer plusieurs fonctionnalités, comme la personnalisation de leur profil, l'accès à des statistiques détaillées et la possibilité d'ajouter des amis pour comparer les scores. Tous les joueurs sont affichés dans un classement global trié par mode de jeu.",
+            "fastype-game-imageAlt": "Interface du jeu de frappe avec une liste de mots à taper, un chronomètre et un affichage du score.",
+            "fastype-leaderboard-imageAlt": "Un classement montrant les meilleurs joueurs de Fastype avec leurs scores et leurs rangs.",
+            "fastype-stats-imageAlt": "Page de statistiques utilisateur montrant la vitesse de frappe, la précision et des graphiques de performance historiques."
         }
     },
     "my-experiences": {

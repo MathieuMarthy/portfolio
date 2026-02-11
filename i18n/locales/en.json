@@ -33,7 +33,10 @@
             "fastype-imageAlt": "Stylized logo with Fastype written on it",
             "fastype-title": "Fastype",
             "fastype-short-description": "Fastype is a game where you type words as fast as possible.",
-            "fastype-long-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard."
+            "fastype-long-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard.",
+            "fastype-game-imageAlt": "Typing game interface with a list of words to type, a timer, and a score display.",
+            "fastype-leaderboard-imageAlt": "a leaderboard showing the top players of Fastype with their scores and ranks.",
+            "fastype-stats-imageAlt": "User statistics page showing typing speed, accuracy, and historical performance graphs."
         }
     },
     "my-experiences": {
