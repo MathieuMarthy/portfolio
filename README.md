@@ -1,75 +1,47 @@
-# Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+# Portfolio
 
-Make sure to install dependencies:
+This is my portfolio. It contains a brief presentation about me, my experiences and my skills.  
+There are also a list of projects that I have worked on, with links to their repositories.
+My portfolio is available at https://mathieu.dzqdzq.net
 
+## Stack of the portfolio
+- Vue.js with Nuxt
+- Tailwind CSS
+- Bun
+
+Feel free to fork this repository and use it as a template for your own portfolio.
+
+## How to run the portfolio
+### Use the Docker image
+1. Build the Docker image:
 ```bash
-# npm
-npm install
+docker build -t portfolio .
+```
 
-# pnpm
-pnpm install
+2. Run the Docker container:
+```bash
+docker run -d -p 3000:3000 -e WEBHOOK_URL="YOUR_WEBHOOK_URL" portfolio
+```
 
-# yarn
-yarn install
-
-# bun
+### Run locally
+1. Install dependencies:
+```bash
 bun install
 ```
 
-## Development Server
+2. Create a `.env` file in the root of the project and add your webhook URL:
+```
+WEBHOOK_URL=YOUR_WEBHOOK_URL
+```
 
-Start the development server on `http://localhost:3000`:
-
+3. Run the development server:
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
 
-## Production
+## License
+This project is licensed under the WTFPL License. See the [LICENSE](LICENSE) file for details.
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+🐢
