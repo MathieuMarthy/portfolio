@@ -8,7 +8,7 @@
     },
     "about-me": {
         "hello": "Hi, I'm Mathieu",
-        "description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Curabitur consectetur, libero non rutrum rhoncus, leo ipsum varius nisi, ac volutpat dui lorem non neque. Pellentesque efficitur, diam ut pharetra pulvinar, dolor turpis pretium erat, quis aliquam quam justo vel turpis. Duis finibus, erat eu consequat condimentum, magna libero accumsan nisl, ut tristique velit nibh eu nibh."
+        "description": "I'm a computer science student in work-study at 3iL ingénieurs and I work at BPCE-IT. I've been passionate about computer science and programming since middle school. I've always been curious and I work self-taught on many personal projects, to experiment with various languages and technologies. I started programming with Python to create various scripts, then I made many web projects with different languages/frameworks. Thanks to my professional experiences, I was also able to improve my skills in devops and infrastructure management."
     },
     "my-projects": {
         "my-personals-projects": "My personals projects",

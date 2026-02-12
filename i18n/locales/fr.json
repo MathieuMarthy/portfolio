@@ -8,7 +8,7 @@
     },
     "about-me": {
         "hello": "Salut ! Je m'appelle Mathieu",
-        "description": "Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sodales sodales sem. Vivamus rhoncus magna lorem, sodales varius risus tincidunt non. Curabitur consectetur, libero non rutrum rhoncus, leo ipsum varius nisi, ac volutpat dui lorem non neque. Pellentesque efficitur, diam ut pharetra pulvinar, dolor turpis pretium erat, quis aliquam quam justo vel turpis. Duis finibus, erat eu consequat condimentum, magna libero accumsan nisl, ut tristique velit nibh eu nibh."
+        "description": "Je suis étudiant en informatique en alternance à l'école 3iL ingénieurs et je travaille au sein de BPCE-IT. Passioné d'informatique et de programmation depuis le collège. J'ai toujours été curieux et je travaille en autodidacte sur de nombreux projets personnels, pour expérimenter divers langages et technologies. J'ai commencé la programmation avec Python pour réaliser des scripts divers, j'ai ensuite réaliser de nombreux projets web avec différents langages/framework. Grâce à mes expériences professionnelles, j'ai aussi pu améliorer mes compétences en devops et en gestion d'infrastructure."
     },
     "my-projects": {
         "my-personals-projects": "Mes projets personnels",
