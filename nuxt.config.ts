@@ -36,6 +36,12 @@ export default defineNuxtConfig({
     },
     nitro: {
         preset: "bun",
+        compressPublicAssets: true,
+        routeRules: {
+            "/images/**": { headers: { "cache-control": "public, max-age=31536000, immutable" } },
+            "/favicon.ico": { headers: { "cache-control": "public, max-age=86400, immutable" } },
+            "/robots.txt": { headers: { "cache-control": "public, max-age=86400, immutable" } },
+        },
     },
     runtimeConfig: {
         webhookUrl: process.env.WEBHOOK_URL || "",

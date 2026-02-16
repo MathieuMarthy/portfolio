@@ -41,7 +41,8 @@ onUnmounted(() => {
             @click="closePopup"
         >
             <div
-                class="flex flex-col gap-4 bg-background border border-gray-700 p-4 rounded-2xl w-1/2 h-fit"
+                class="flex flex-col gap-4 bg-background border border-gray-700 p-4 rounded-2xl
+                    w-11/12 md:w-2/3 h-fit max-md:mt-16"
                 @click.stop
             >
                 <atoms-simple-button

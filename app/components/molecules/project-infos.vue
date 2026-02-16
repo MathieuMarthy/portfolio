@@ -12,14 +12,16 @@ defineProps<{
             <img
                 :alt="$t(getProjectTranslationKey(project, 'imageAlt'))"
                 :src="`/images/projects/${project.projectName}.webp`"
-                class="w-auto h-60 rounded-2xl"
+                class="w-126 max-h-60 rounded-2xl"
             >
 
             <h2 class="text-text text-5xl font-semibold text-center">
                 {{ $t(getProjectTranslationKey(project, 'title')) }}
             </h2>
 
-            <p class="text-text w-2/3">{{ $t(getProjectTranslationKey(project, 'long-description')) }}</p>
+            <p class="text-text w-10/12 md:w-2/3">
+                {{ $t(getProjectTranslationKey(project, 'long-description')) }}
+            </p>
 
             <div class="flex flex-wrap justify-center gap-6">
                 <atoms-project-link
