@@ -1,4 +1,8 @@
 {
+    "head": {
+        "title": "Mathieu Marthy - Portfolio",
+        "description": "Welcome to my portfolio! I'm a computer science student passionate about programming, web development and cybersecurity. Discover my personal projects, professional experiences and technical skills."
+    },
     "navbar": {
         "about-me": "About me",
         "my-projects": "My projects",

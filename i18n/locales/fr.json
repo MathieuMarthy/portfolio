@@ -1,4 +1,8 @@
 {
+    "head" : {
+        "title": "Mathieu Marthy - Portfolio",
+        "description": "Bienvenue sur mon portfolio ! Je suis un étudiant en informatique passionné par la programmation, le développement web et la cybersécurité. Découvrez mes projets personnels, mes expériences professionnelles et mes compétences techniques."
+    },
     "navbar": {
         "about-me": "À propos de moi",
         "my-projects": "Mes projets",

@@ -22,9 +22,9 @@ defineEmits(["showMoreInfos"]);
             >
 
             <div class="flex flex-col gap-2 px-1">
-                <h4
+                <h3
                     class="text-text text-xl font-semibold"
-                >{{ $t(getProjectTranslationKey(project, 'title')) }}</h4>
+                >{{ $t(getProjectTranslationKey(project, 'title')) }}</h3>
 
                 <p
                     class="text-text text-sm"

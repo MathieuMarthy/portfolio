@@ -1,3 +1,24 @@
+<script lang="ts" setup>
+const { locale, t } = useI18n();
+
+useHead({
+    htmlAttrs: {
+        lang: locale.value,
+    },
+    title: t("head.title"),
+    meta: [
+        {
+            name: "description",
+            content: t("head.description"),
+        },
+        {
+            name: "robots",
+            content: "index, follow",
+        },
+    ],
+});
+</script>
+
 <template>
     <div class="relative w-full overflow-x-hidden min-h-screen">
         <div
