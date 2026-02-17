@@ -21,6 +21,9 @@ WORKDIR /app
 # Only `.output` folder is needed from the build stage
 COPY --from=build /app/.output /app
 
+# Environment variables can be set at runtime
+ENV NUXT_WEBHOOK_URL=""
+
 # run the app
 EXPOSE 3000/tcp
 ENTRYPOINT [ "bun", "--bun", "run", "/app/server/index.mjs" ]
