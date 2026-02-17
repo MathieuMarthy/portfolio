@@ -1,3 +1,99 @@
 {
-    "hello": "Hello"
+    "head": {
+        "title": "Mathieu Marthy - Portfolio",
+        "description": "Welcome to my portfolio! I'm a computer science student passionate about programming, web development and cybersecurity. Discover my personal projects, professional experiences and technical skills."
+    },
+    "navbar": {
+        "about-me": "About me",
+        "my-projects": "My projects",
+        "my-expericences": "My experiences",
+        "technical-skills": "Technical skills",
+        "contact-me": "Contact me",
+        "enable-dark-mode": "Enable dark mode",
+        "enable-light-mode": "Enable light mode"
+    },
+    "about-me": {
+        "hello": "Hi, I'm Mathieu",
+        "description": "I'm a computer science student in work-study at 3iL ingénieurs and I work at BPCE-IT. I've been passionate about computer science and programming since middle school. I've always been curious and I work self-taught on many personal projects, to experiment with various languages and technologies. I started programming with Python to create various scripts, then I made many web projects with different languages/frameworks. Thanks to my professional experiences, I was also able to improve my skills in devops and infrastructure management."
+    },
+    "my-projects": {
+        "my-personals-projects": "My personals projects",
+        "more-infos": "More infos",
+        "screenshots": "Screenshots",
+        "technologies-used": "Technologies used",
+
+        "projects-infos": {
+            "realprice-imageAlt": "Advertisement for the RealPrice currency conversion app on Android, with the slogan 'your travel companion'.",
+            "realprice-title": "Realprice",
+            "realprice-short-description": "Mobile app to convert currencies, including bank fees.",
+            "realprice-long-description": "RealPrice is a currency conversion app for travelers who want to know the real cost of items in a foreign currency. With RealPrice, you can easily compare exchange rates between two currencies and adjust the commission percentage charged by your bank during international transactions. This feature allows you to calculate the final price of an item or service, taking into account not only the exchange rate, but also the associated banking fees. The app automatically updates as soon as you are connected to the Internet, ensuring always accurate and up-to-date conversions. You can install Realprice via the Play Store or with the apk available on Github.",
+            "realprice-home-imageAlt": "Screenshot of the home screen, displaying a currency conversion interface with input fields for amounts.",
+            "realprice-home-light-imageAlt": "Screenshot of the home screen in light mode, showing a currency conversion interface with input fields for amounts.",
+            "realprice-search-imageAlt": "Screenshot of the search screen, featuring a list of currencies with their respective exchange rates and flags.",
+            "realprice-settings-imageAlt": "Screenshot of the settings screen, displaying options for commission percentage adjustment.",
+
+            "eula-bot-imageAlt": "Eula Bot banner with Discord/python logo and illustration of the character Eula on a starry background.",
+            "eula-bot-title": "Eula-Bot",
+            "eula-bot-short-description": "Discord chatbot with commands for games, moderation and utilities",
+            "eula-bot-long-description": "Eula is a multifunctional open-source Discord bot offering moderation, administration and entertainment tools. It allows moderators to manage a server through message cleaning, polling and logging commands. There are also commands for normal users like external features such as retrieving images on Reddit or tracking League of Legends statistics (rankings, match history). The bot also includes multiplayer mini-games (Monopoly, 10_fast_fingers) and social interaction commands. Eula can be installed via a Docker image or directly with Python.",
+
+            "fastype-imageAlt": "Stylized logo with Fastype written on it",
+            "fastype-title": "Fastype",
+            "fastype-short-description": "Fastype is a game where you type words as fast as possible.",
+            "fastype-long-description": "Fastype is a game where you type words as fast as possible. Different game modes are available; the most popular one is “Fastaily.” This is a mode with a daily ranking where each player is given the same word list and has only one attempt per day to achieve a score. Users can create an account to track their stats and climb the leaderboard.",
+            "fastype-game-imageAlt": "Typing game interface with a list of words to type, a timer, and a score display.",
+            "fastype-leaderboard-imageAlt": "a leaderboard showing the top players of Fastype with their scores and ranks.",
+            "fastype-stats-imageAlt": "User statistics page showing typing speed, accuracy, and historical performance graphs."
+        }
+    },
+    "my-experiences": {
+        "my-experiences": "My experiences",
+
+        "bpce-3il-dates": "2024 - 2027",
+        "bpce-3il-title": "3il ingénieurs - BPCE infogérance et technologies",
+        "bpce-3il-description": "Work-study student at the 3iL engineering school in Nantes, specializing in cybersecurity and data. I work at BPCE-IT in the infrastructure department.",
+
+        "but-dates": "2021 - 2024",
+        "but-title": "BUT Informatique - IUT de Nantes",
+        "but-description": "Graduated with a BUT Informatique from IUT de Nantes, with a specialization in Information Systems and Digital."
+    },
+    "technical-skills": {
+        "technical-skills": "Technical skills",
+        "web": "Web",
+        "databases": "Databases",
+        "other-languages": "Other languages",
+        "tools": "Tools",
+        "infrastructure": "Infrastructure"
+    },
+    "contact-me": {
+        "contact-me": "Contact me",
+        "my-socials": "My socials",
+        "email-me": "Email me",
+        "check-github": "Check my Github",
+
+        "send-me-a-message": "Send me a message",
+        "your-name": "Your name",
+        "name-placeholder": "Enter your name",
+        "your-email": "Your email",
+        "email-placeholder": "Enter your email",
+        "your-message": "Your message",
+        "message-placeholder": "Enter your message",
+        "send-message": "Send message",
+        "message-sent": "Message sent !"
+    },
+    "buttons": {
+        "play-store": "play store",
+        "github": "Github",
+        "site": "site",
+        "close": "close"
+    },
+    "others": {
+        "x-logo": "{ name }'s logo"
+    },
+    "errors": {
+        "something-went-wrong": "Something went wrong :( please try again later",
+        "invalid-email": "Invalid email address",
+        "empty": "The field cannot be empty",
+        "too-long": "The message is too long (max {max} characters)"
+    }
 }

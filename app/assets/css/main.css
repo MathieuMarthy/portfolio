@@ -6,19 +6,63 @@
     --color-background: var(--background);
     --color-background-alt: var(--background-alt);
     --color-primary: var(--primary);
+    --color-primary-hover: var(--primary-hover);
+    --color-text: var(--text);
+    --color-text-secondary: var(--text-secondary);
+    --color-gradient-to: var(--gradient-to);
+    --color-input-color: var(--input-color);
+
+    --font-sans: "DM Mono", monospace;
 }
 
 :root {
     --background: #FCF6E8;
     --background-alt: #EBE5D6;
     --primary: #1B37A8;
+    --primary-hover: #152671;
     --text: #040620;
-}
+    --text-secondary: #0f0f30;
+    --gradient-to: #F8E6BD;
+    --input-color: #d1ccb8;
 
+    transition-property: --background, --background-alt, --primary, --text, --gradient-to, --input-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
 
 .dark {
     --background: #021018;
     --background-alt: #07161F;
     --primary: #1B37A8;
+    --primary-hover: #152671;
     --text: #FFFFFF;
+    --text-secondary: #c8c8c8;
+    --gradient-to: #0f2432;
+    --input-color: #363046;
+}
+
+@property --background {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #FCF6E8;
+}
+@property --background-alt {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #EBE5D6;
+}
+@property --primary {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #1B37A8;
+}
+@property --text {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #040620;
+}
+@property --gradient-to {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #F8E6BD;
 }

@@ -1,39 +1,64 @@
 <script lang="ts" setup>
-import { onMounted, ref } from "vue";
+const { locale, t } = useI18n();
 
-const isDark = ref(false);
-
-function toggleTheme() {
-    isDark.value = !isDark.value;
-    updateTheme();
-}
-
-function updateTheme() {
-    document.documentElement.classList.toggle("dark");
-    localStorage.setItem("theme", isDark.value ? "dark": "light");
-}
-
-onMounted(() => {
-    const stored = localStorage.getItem("theme");
-    if (stored) {
-        isDark.value = stored === "dark";
-    }
-    else {
-        isDark.value = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    }
-    updateTheme();
+useHead({
+    htmlAttrs: {
+        lang: locale.value,
+    },
+    title: t("head.title"),
+    meta: [
+        {
+            name: "description",
+            content: t("head.description"),
+        },
+        {
+            name: "robots",
+            content: "index, follow",
+        },
+    ],
 });
 </script>
 
 <template>
-    <div class="bg-background h-screen">
-        <p class="text-4xl text-">{{ $t("hello") }}</p>
+    <div class="relative w-full overflow-x-hidden min-h-screen">
+        <div
+            class="h-[50svh] w-full absolute top-0 bg-linear-to-t
+                from-background to-gradient-to -z-10"/>
 
-        <button
-            class="bg-primary text-background px-4 py-2 rounded cursor-pointer hover:opacity-90"
-            @click="toggleTheme"
-        >
-            {{ isDark ? 'Light Mode' : 'Dark Mode' }}
-        </button>
+        <organisms-header-navbar/>
+
+        <main class="flex flex-col items-center py-40 md:py-64 gap-52">
+            <organisms-about-me/>
+            <organisms-personal-projects/>
+            <organisms-my-experiences/>
+            <organisms-technical-skills/>
+            <organisms-contact-me/>
+        </main>
+
+        <atoms-gradient-round
+            color-rgba="rgba(5,135,20,0.2)"
+            custom-class="top-[60svh] left-0 -translate-x-1/2"
+        />
+        <atoms-gradient-round
+            color-rgba="rgba(135,5,92,0.3)"
+            custom-class="top-[140svh] right-0 translate-x-1/2"
+        />
+        <atoms-gradient-round
+            color-rgba="rgba(17,138,183,0.2)"
+            custom-class="top-[230svh] left-0 -translate-x-1/2"
+        />
+        <atoms-gradient-round
+            color-rgba="rgba(183,17,17,0.3)"
+            custom-class="top-[380svh] right-0 translate-x-1/2"
+        />
     </div>
 </template>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--color-background);
+}
+</style>
