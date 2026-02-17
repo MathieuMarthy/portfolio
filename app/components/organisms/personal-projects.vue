@@ -3,8 +3,11 @@ import { projects } from "~/composables/data/projects";
 import { ButtonTypes } from "~/composables/data/buttonTypes";
 import type { Project } from "~/composables/models/project";
 
+const numberOfProjectsToShow = 3;
 const displayAllProjects = ref(false);
-const projectsToShow = computed(() => displayAllProjects.value ? projects : projects.slice(0, 3));
+const projectsToShow = computed(
+    () => displayAllProjects.value ? projects : projects.slice(0, numberOfProjectsToShow),
+);
 
 const projectInPopup: Ref<Project | null> = ref(null);
 
@@ -36,7 +39,7 @@ function handlePopupClose() {
         </div>
 
         <atoms-simple-button
-            v-if="!displayAllProjects"
+            v-if="!displayAllProjects && projects.length > numberOfProjectsToShow"
             :button-type="ButtonTypes.SECONDARY"
             :click-handler="() => displayAllProjects = true"
             text="view more"
