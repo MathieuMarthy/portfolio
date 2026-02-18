@@ -44,7 +44,8 @@ export default defineNuxtConfig({
         },
     },
     runtimeConfig: {
-        webhookUrl: process.env.NUXT_WEBHOOK_URL || "",
+        webhookContactUrl: process.env.NUXT_WEBHOOK_CONTACT_URL || "",
+        webhookLogUrl: process.env.NUXT_WEBHOOK_LOG_URL || "",
     },
     modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxt/fonts"],
     i18n: {

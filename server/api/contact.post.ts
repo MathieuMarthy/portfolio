@@ -20,7 +20,7 @@ export default defineEventHandler(async (event) => {
     const runtimeConfig = useRuntimeConfig();
     try {
         logger.info(`[Contact API] Sending webhook for: ${result.data.email}`);
-        await $fetch(runtimeConfig.webhookUrl, {
+        await $fetch(runtimeConfig.webhookContactUrl, {
             method: "POST",
             body: {
                 content:
