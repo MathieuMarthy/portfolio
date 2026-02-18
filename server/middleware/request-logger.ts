@@ -9,6 +9,11 @@ export default defineEventHandler((event) => {
 
     const url = event.node.req.url;
 
+    // only log requests "/" to avoid logging i18n redirects and other static asset requests
+    if (url !== "/") {
+        return;
+    }
+
     const headers = event.node.req.headers;
 
     const ip =
