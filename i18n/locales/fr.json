@@ -60,7 +60,12 @@
             "bonsize-title": "Bonsize",
             "bonsize-short-description": "Analyseur d'utilisation du disque rapide et interactif avec une interface en ligne de commande (CLI) et une interface graphique moderne (GUI) pour explorer les tailles des arborescences de répertoires",
             "bonsize-long-description": "Bonsize est un analyseur d'utilisation du disque qui vous permet de visualiser rapidement la taille des répertoires et des fichiers sur votre système. Il fournit à la fois une interface en ligne de commande (CLI) pour une analyse rapide et une interface graphique moderne (GUI) pour une exploration interactive des arborescences de répertoires. Bonsize vous aide à identifier les fichiers et répertoires volumineux, facilitant ainsi la gestion efficace de l'espace disque.",
-            "bonsize-gui-imageAlt": "Capture d'écran de l'interface graphique de Bonsize montrant une arborescence de répertoires avec des indicateurs de taille et des éléments interactifs pour explorer l'utilisation du disque."
+            "bonsize-gui-imageAlt": "Capture d'écran de l'interface graphique de Bonsize montrant une arborescence de répertoires avec des indicateurs de taille et des éléments interactifs pour explorer l'utilisation du disque.",
+
+            "sync-files-to-cloud-imageAlt": "Bannière de Sync Files to Cloud avec un nuage et une icône de dossier en verre 3D et le slogan : Synchronisation automatisée et planifiée de fichiers multi-cloud",
+            "sync-files-to-cloud-title": "Sync files to cloud",
+            "sync-files-to-cloud-short-description": "Synchronisez automatiquement les dossiers locaux vers le stockage cloud (Google Drive, Git, ProtonDrive) avec des téléchargements planifiés et la compression de fichiers.",
+            "sync-files-to-cloud-long-description": "Sync files to cloud est un outil qui vous permet de synchroniser automatiquement vos dossiers locaux avec divers services de stockage cloud tels que Google Drive, Git et ProtonDrive. Il prend en charge les téléchargements planifiés, garantissant que vos fichiers sont sauvegardés à intervalles réguliers. De plus, il offre des options de compression de fichiers pour économiser de l'espace et optimiser le processus de téléchargement. Cet outil est idéal pour les utilisateurs qui souhaitent garder leurs données sécurisées et accessibles sur différentes plateformes sans intervention manuelle."
         }
     },
     "my-experiences": {

@@ -60,7 +60,12 @@
             "bonsize-title": "Bonsize",
             "bonsize-short-description": "Fast and interactive disk usage analyzer with both a CLI and a modern GUI to explore directory tree sizes",
             "bonsize-long-description": "Bonsize is a disk usage analyzer that allows you to quickly visualize the size of directories and files on your system. It provides both a command-line interface (CLI) for quick analysis and a modern graphical user interface (GUI) for interactive exploration of directory trees. Bonsize helps you identify large files and directories, making it easier to manage disk space effectively.",
-            "bonsize-gui-imageAlt": "Screenshot of Bonsize GUI showing a directory tree with size indicators and interactive elements for exploring disk usage."
+            "bonsize-gui-imageAlt": "Screenshot of Bonsize GUI showing a directory tree with size indicators and interactive elements for exploring disk usage.",
+
+            "sync-files-to-cloud-imageAlt": "Sync Files to Cloud banner featuring a 3D glassmorphic glowing cloud and folder icon with the tagline: Automated and Scheduled Multi-Cloud File Synchronization",
+            "sync-files-to-cloud-title": "Sync files to cloud",
+            "sync-files-to-cloud-short-description": "Automatically sync local folders to cloud storage (Google Drive, Git, ProtonDrive) with scheduled uploads & file compression.",
+            "sync-files-to-cloud-long-description": "Sync files to cloud is a tool that allows you to automatically synchronize your local folders with various cloud storage services such as Google Drive, Git, and ProtonDrive. It supports scheduled uploads, ensuring that your files are backed up at regular intervals. Additionally, it offers file compression options to save space and optimize the upload process. This tool is ideal for users who want to keep their data secure and accessible across different platforms without manual intervention."
         }
     },
     "my-experiences": {

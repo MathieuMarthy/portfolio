@@ -44,6 +44,23 @@ export const projects: Project[] = [
         screenshots: ["gui"],
     },
     {
+        projectName: "fastype",
+        technos: [Techno.typescript, Techno.react, Techno.sqlserver],
+        links: [{ type: "site", url: "https://fastype.app" }],
+        screenshots: ["game", "leaderboard", "stats"],
+    },
+    {
+        projectName: "sync-files-to-cloud",
+        technos: [Techno.python],
+        links: [
+            {
+                type: "github",
+                url: "https://github.com/MathieuMarthy/sync-files-to-cloud",
+            },
+        ],
+        screenshots: [],
+    },
+    {
         projectName: "eula-bot",
         technos: [Techno.python],
         links: [
@@ -53,11 +70,5 @@ export const projects: Project[] = [
             },
         ],
         screenshots: ["monopoly", "leaderboard-lol"],
-    },
-    {
-        projectName: "fastype",
-        technos: [Techno.typescript, Techno.react, Techno.sqlserver],
-        links: [{ type: "site", url: "https://fastype.app" }],
-        screenshots: ["game", "leaderboard", "stats"],
     },
 ];

@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-    <article class="flex flex-col items-center w-full gap-18">
+    <article class="flex flex-col items-center w-full gap-18 pb-4">
         <div class="flex flex-col items-center gap-8 w-full">
             <img
                 :alt="$t(getProjectTranslationKey(project, 'imageAlt'))"
@@ -46,7 +46,10 @@ defineProps<{
             </div>
         </div>
 
-        <div class="flex flex-col items-center gap-4">
+        <div
+            v-if="project.screenshots.length"
+            class="flex flex-col items-center gap-4"
+        >
             <h3 class="text-text text-4xl text-center font-semibold">{{ $t("my-projects.screenshots") }}</h3>
 
             <div class="flex flex-wrap justify-center">
