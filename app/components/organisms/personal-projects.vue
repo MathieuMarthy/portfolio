@@ -25,9 +25,17 @@ function handlePopupClose() {
             <molecules-project-infos v-if="projectInPopup" :project="projectInPopup"/>
         </atoms-dynamic-popup>
 
-        <h2
-            class="text-text text-5xl text-center"
-        >{{ $t("my-projects.my-personals-projects") }}</h2>
+        <div class="flex flex-col items-center gap-5">
+            <h2
+                class="text-text text-5xl"
+            >{{ $t("my-projects.my-personals-projects") }}</h2>
+            <a
+                class="text-blue-600 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/MathieuMarthy"
+            >{{ $t("my-projects.see-all-my-projects-on-github") }}</a>
+        </div>
 
         <div class="flex flex-wrap justify-center gap-12 w-9/12">
             <molecules-project-card
@@ -42,7 +50,7 @@ function handlePopupClose() {
             v-if="!displayAllProjects && projects.length > numberOfProjectsToShow"
             :button-type="ButtonTypes.SECONDARY"
             :click-handler="() => displayAllProjects = true"
-            text="view more"
+            :text="$t('my-projects.view-more')"
         />
     </section>
 </template>

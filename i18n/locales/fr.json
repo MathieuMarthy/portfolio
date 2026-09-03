@@ -6,7 +6,7 @@
     "navbar": {
         "about-me": "À propos de moi",
         "my-projects": "Mes projets",
-        "my-expericences": "Mes expériences",
+        "my-experiences": "Mes expériences",
         "technical-skills": "Compétences techniques",
         "contact-me": "Contactez-moi",
         "enable-dark-mode": "Activer le mode sombre",
@@ -18,9 +18,11 @@
     },
     "my-projects": {
         "my-personals-projects": "Mes projets personnels",
+        "see-all-my-projects-on-github": "Voir tous mes projets sur Github",
         "more-infos": "Plus d'infos",
         "screenshots": "Captures d'écran",
         "technologies-used": "Technologies utilisées",
+        "view-more": "Voir plus",
 
         "projects-infos": {
             "realprice-imageAlt": "Publicité pour l'application de conversion de devises RealPrice sur Android, avec le slogan 'votre compagnon de voyage'.",
@@ -43,7 +45,16 @@
             "fastype-long-description": "Fastype est un jeu où vous devez taper des mots le plus rapidement possible. Différents modes de jeu sont disponibles ; le plus populaire est “Fastaily.” Il s'agit d'un mode avec un classement quotidien où chaque joueur reçoit la même liste de mots et n'a qu'une seule tentative par jour pour réaliser un score. Les utilisateurs peuvent créer un compte pour débloquer plusieurs fonctionnalités, comme la personnalisation de leur profil, l'accès à des statistiques détaillées et la possibilité d'ajouter des amis pour comparer les scores. Tous les joueurs sont affichés dans un classement global trié par mode de jeu.",
             "fastype-game-imageAlt": "Interface du jeu de frappe avec une liste de mots à taper, un chronomètre et un affichage du score.",
             "fastype-leaderboard-imageAlt": "Un classement montrant les meilleurs joueurs de Fastype avec leurs scores et leurs rangs.",
-            "fastype-stats-imageAlt": "Page de statistiques utilisateur montrant la vitesse de frappe, la précision et des graphiques de performance historiques."
+            "fastype-stats-imageAlt": "Page de statistiques utilisateur montrant la vitesse de frappe, la précision et des graphiques de performance historiques.",
+
+            "amber-imageAlt": "Bannière promotionnelle pour une application mobile de gestion d'abonnements, présentant l'icône de l'application, le slogan « Gérer vos abonnements en toute sérénité », ses fonctionnalités clés et trois écrans de smartphone affichant un calendrier des paiements, la liste des abonnements actifs et les détails d'un abonnement.",
+            "amber-title": "Amber calendar",
+            "amber-short-description": "Gestionnaire d'abonnements visuel et basé sur un calendrier pour suivre les factures récurrentes, calculer les budgets mensuels et ne jamais manquer un renouvellement.",
+            "amber-long-description": "Amber Calendar aide à reprendre le contrôle de vos abonnements et paiements récurrents. Avec la croissance rapide des services basés sur l'abonnement, il est facile de perdre la trace de l'endroit où va votre argent chaque mois. Amber fournit une interface unifiée et basée sur un calendrier pour visualiser les paiements à venir, calculer les budgets mensuels et ne plus jamais manquer un renouvellement.",
+            "amber-home-imageAlt": "Capture d'écran de l'écran d'accueil, affichant une vue calendrier avec les paiements d'abonnements à venir et un résumé des dépenses mensuelles totales.",
+            "amber-all-subs-imageAlt": "Capture d'écran de l'écran des abonnements, montrant une liste d'abonnements actifs avec des détails tels que le nom, le coût et la date de renouvellement.",
+            "amber-details-imageAlt": "Capture d'écran de l'écran des détails d'abonnement, fournissant des informations détaillées sur un abonnement spécifique, y compris l'historique des paiements et les options de renouvellement.",
+            "amber-settings-imageAlt": "Capture d'écran de l'écran des paramètres, affichant des options pour gérer les préférences."
         }
     },
     "my-experiences": {

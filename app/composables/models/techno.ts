@@ -4,7 +4,7 @@ export enum Techno {
 
     // web
     javascript = "JavaScript",
-    typescript = "Typescript",
+    typescript = "TypeScript",
     react = "ReactJS",
     angular = "Angular",
     nuxt = "Nuxt JS",
@@ -23,11 +23,13 @@ export enum Techno {
     kotlin = "Kotlin",
     java = "Java",
     csharp = "C#",
+    dart = "Dart",
+    flutter = "Flutter",
 
     // tools
     git = "Git",
     docker = "Docker",
-    jira = "jira",
+    jira = "Jira",
     confluence = "Confluence",
     bitbucket = "Bitbucket",
     github = "Github",

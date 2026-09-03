@@ -18,6 +18,21 @@ export const projects: Project[] = [
         screenshots: ["home", "search", "settings", "home-light"],
     },
     {
+        projectName: "amber",
+        technos: [Techno.android, Techno.flutter, Techno.dart],
+        links: [
+            {
+                type: "play-store",
+                url: "https://play.google.com/store/apps/details?id=com.chocobytes.amber",
+            },
+            {
+                type: "github",
+                url: "https://github.com/MathieuMarthy/Amber",
+            },
+        ],
+        screenshots: ["home", "all-subs", "details", "settings"],
+    },
+    {
         projectName: "eula-bot",
         technos: [Techno.python],
         links: [

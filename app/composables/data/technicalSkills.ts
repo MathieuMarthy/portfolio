@@ -19,7 +19,7 @@ export const technicalSkills: TechnicalSkill[] = [
     },
     {
         title: "other-languages",
-        technos: [Techno.python, Techno.kotlin, Techno.java, Techno.csharp],
+        technos: [Techno.python, Techno.kotlin, Techno.java, Techno.csharp, Techno.dart, Techno.flutter],
     },
     {
         title: "tools",
