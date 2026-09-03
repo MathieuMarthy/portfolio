@@ -6,7 +6,7 @@
     "navbar": {
         "about-me": "About me",
         "my-projects": "My projects",
-        "my-expericences": "My experiences",
+        "my-experiences": "My experiences",
         "technical-skills": "Technical skills",
         "contact-me": "Contact me",
         "enable-dark-mode": "Enable dark mode",
@@ -54,7 +54,13 @@
             "amber-home-imageAlt": "Screenshot of the home screen, displaying a calendar view with upcoming subscription payments and a summary of total monthly expenses.",
             "amber-all-subs-imageAlt": "Screenshot of the subscriptions screen, showing a list of active subscriptions with details such as name, cost, and renewal date.",
             "amber-details-imageAlt": "Screenshot of the subscription details screen, providing in-depth information about a specific subscription, including payment history and renewal options.",
-            "amber-settings-imageAlt": "Screenshot of the settings screen, displaying option for managing preferences."
+            "amber-settings-imageAlt": "Screenshot of the settings screen, displaying option for managing preferences.",
+
+            "bonsize-imageAlt": "Stylized bonsai tree with treemap data block leaves beside the title bonsize and subtitle Disk Space Tree Visualizer (CLI & GUI)",
+            "bonsize-title": "Bonsize",
+            "bonsize-short-description": "Fast and interactive disk usage analyzer with both a CLI and a modern GUI to explore directory tree sizes",
+            "bonsize-long-description": "Bonsize is a disk usage analyzer that allows you to quickly visualize the size of directories and files on your system. It provides both a command-line interface (CLI) for quick analysis and a modern graphical user interface (GUI) for interactive exploration of directory trees. Bonsize helps you identify large files and directories, making it easier to manage disk space effectively.",
+            "bonsize-gui-imageAlt": "Screenshot of Bonsize GUI showing a directory tree with size indicators and interactive elements for exploring disk usage."
         }
     },
     "my-experiences": {

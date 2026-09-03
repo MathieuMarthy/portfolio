@@ -54,7 +54,13 @@
             "amber-home-imageAlt": "Capture d'écran de l'écran d'accueil, affichant une vue calendrier avec les paiements d'abonnements à venir et un résumé des dépenses mensuelles totales.",
             "amber-all-subs-imageAlt": "Capture d'écran de l'écran des abonnements, montrant une liste d'abonnements actifs avec des détails tels que le nom, le coût et la date de renouvellement.",
             "amber-details-imageAlt": "Capture d'écran de l'écran des détails d'abonnement, fournissant des informations détaillées sur un abonnement spécifique, y compris l'historique des paiements et les options de renouvellement.",
-            "amber-settings-imageAlt": "Capture d'écran de l'écran des paramètres, affichant des options pour gérer les préférences."
+            "amber-settings-imageAlt": "Capture d'écran de l'écran des paramètres, affichant des options pour gérer les préférences.",
+
+            "bonsize-imageAlt": "Bonsai stylisé avec des feuilles en forme de blocs de données treemap à côté du titre bonsize et du sous-titre Disk Space Tree Visualizer (CLI & GUI)",
+            "bonsize-title": "Bonsize",
+            "bonsize-short-description": "Analyseur d'utilisation du disque rapide et interactif avec une interface en ligne de commande (CLI) et une interface graphique moderne (GUI) pour explorer les tailles des arborescences de répertoires",
+            "bonsize-long-description": "Bonsize est un analyseur d'utilisation du disque qui vous permet de visualiser rapidement la taille des répertoires et des fichiers sur votre système. Il fournit à la fois une interface en ligne de commande (CLI) pour une analyse rapide et une interface graphique moderne (GUI) pour une exploration interactive des arborescences de répertoires. Bonsize vous aide à identifier les fichiers et répertoires volumineux, facilitant ainsi la gestion efficace de l'espace disque.",
+            "bonsize-gui-imageAlt": "Capture d'écran de l'interface graphique de Bonsize montrant une arborescence de répertoires avec des indicateurs de taille et des éléments interactifs pour explorer l'utilisation du disque."
         }
     },
     "my-experiences": {

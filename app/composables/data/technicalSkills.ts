@@ -9,8 +9,8 @@ export const technicalSkills: TechnicalSkill[] = [
     {
         title: "web",
         technos: [
-            Techno.javascript, Techno.typescript, Techno.react, Techno.angular, Techno.nuxt, Techno.fastapi,
-            Techno.adonisjs, Techno.tailwindcss, Techno.bun,
+            Techno.javascript, Techno.typescript, Techno.react, Techno.angular, Techno.vue, Techno.nuxt,
+            Techno.fastapi, Techno.adonisjs, Techno.tailwindcss, Techno.bun,
         ],
     },
     {
@@ -19,13 +19,16 @@ export const technicalSkills: TechnicalSkill[] = [
     },
     {
         title: "other-languages",
-        technos: [Techno.python, Techno.kotlin, Techno.java, Techno.csharp, Techno.dart, Techno.flutter],
+        technos: [
+            Techno.python, Techno.kotlin, Techno.java, Techno.csharp, Techno.dart,
+            Techno.flutter, Techno.rust,
+        ],
     },
     {
         title: "tools",
         technos: [
             Techno.git, Techno.docker, Techno.jira, Techno.confluence, Techno.bitbucket, Techno.github,
-            Techno.postman, Techno.vscode, Techno.jetbrainsIdes, Techno.figma,
+            Techno.postman, Techno.vscode, Techno.jetbrainsIdes, Techno.figma, Techno.tauri,
         ],
     },
     {

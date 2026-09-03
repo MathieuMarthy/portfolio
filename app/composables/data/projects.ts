@@ -33,6 +33,17 @@ export const projects: Project[] = [
         screenshots: ["home", "all-subs", "details", "settings"],
     },
     {
+        projectName: "bonsize",
+        technos: [Techno.tauri, Techno.rust, Techno.vue],
+        links: [
+            {
+                type: "github",
+                url: "https://github.com/MathieuMarthy/bonsize",
+            },
+        ],
+        screenshots: ["gui"],
+    },
+    {
         projectName: "eula-bot",
         technos: [Techno.python],
         links: [

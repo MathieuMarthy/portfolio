@@ -12,6 +12,7 @@ export enum Techno {
     adonisjs = "Adonisjs",
     tailwindcss = "Tailwind CSS",
     bun = "Bun",
+    vue = "Vue",
 
     // db
     postgresql = "PostgreSQL",
@@ -25,6 +26,7 @@ export enum Techno {
     csharp = "C#",
     dart = "Dart",
     flutter = "Flutter",
+    rust = "Rust",
 
     // tools
     git = "Git",
@@ -37,6 +39,7 @@ export enum Techno {
     vscode = "Visual studio code",
     jetbrainsIdes = "JetBrains IDEs",
     figma = "Figma",
+    tauri = "Tauri",
 
     // infrastructure
     vmware = "VMware",
